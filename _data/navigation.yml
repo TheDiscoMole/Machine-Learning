@@ -1,10 +1,4 @@
 # Site navigation links
 
-- title: Resume
-  url: /resume/
-
 - title: Projects
   url: /projects/
-
-- title: Random
-  url: /random/
