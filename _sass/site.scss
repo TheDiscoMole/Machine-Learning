@@ -76,7 +76,6 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: $white;
 	color: $color_shark;
     opacity: 0.2;
 	z-index: 1;
@@ -106,7 +105,6 @@ body {
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
-	background: $white;
 	color: $color_tuatara;
     opacity: 0.2;
 	padding: 2em;
