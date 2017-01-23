@@ -10,9 +10,9 @@ comments: false
 
 ## Coding Skillset
 | Language | /5 |
-| | 
-| Python   |  5   |
-| C++/CUDA   |  4   |
+|          |    | 
+| Python   |  5 |
+| C++/CUDA |  4 |
 {: rules="groups"}
 
 ## Preview
