@@ -10,7 +10,7 @@ comments: false
 
 -----------------------------------------------------------
 
-| Languages/Libs/Tools/... | /5  |
+| Languages | /5  |
 |:----------|----:|
 | Python    | 5   |
 | C++       | 4   |
@@ -19,7 +19,11 @@ comments: false
 | Scala     | 3   |
 | NodeJS    | 2   |
 | Shell     | 2   |
-|---------------------------------------------|---|
+
+---------------------------------------
+
+| Libs/Tools/... | /5 |
+|:--------------------------------------------|---:|
 | Symbolic Computing ([Theano](http://deeplearning.net/software/theano/)/[Tensorflow](https://www.tensorflow.org/)/[Torch](http://torch.ch/))  | 4  |
 | GPU ([CUDA](http://www.nvidia.com/object/cuda_home_new.html))  | 3  |
 | Machine Learning ([Keras](http://keras.io/)/[Caffe](http://caffe.berkeleyvision.org/))  | 3  |
