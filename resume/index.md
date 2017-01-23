@@ -8,25 +8,27 @@ comments: false
     
 <center> This contains the summized history of my modest Machine Learning skillset. </center>
 
-| Language | /5  |
-|:---------|----:|
-| Python   | 5   |
-| C++      | 4   |
-| LUA      | 4   |
-| Java     | 3   |
-| Scala    | 3   |
-| NodeJS   | 2   |
-| Shell    | 2   |
+
+| Languages | /5  |
+|:----------|----:|
+| Python    | 5   |
+| C++       | 4   |
+| LUA       | 4   |
+| Java      | 3   |
+| Scala     | 3   |
+| NodeJS    | 2   |
+| Shell     | 2   |
+
 
 | Libs/Tools/...                               | /5 |
 |:---------------------------------------------|---:|
-| Symbolic Computing (Theano/Tensorflow/Torch) | 4  |
-| GPU (CUDA)                                   | 3  |
-| Machine Learning (Keras/Caffe)               | 3  |
-| MapReduce (AWS/Spark)                        | 3  |
-| Cloud (AWS)                                  | 3  |
-| SQL/NoSQL (AWS/MongoDB)                      | 3  | 
-| Distribution (ZMQ)                           | 2  |
+| Symbolic Computing ([Theano](http://deeplearning.net/software/theano/)/[Tensorflow](https://www.tensorflow.org/)/[Torch](http://torch.ch/))  | 4  |
+| GPU ([CUDA](http://www.nvidia.com/object/cuda_home_new.html))  | 3  |
+| Machine Learning ([Keras](http://keras.io/)/[Caffe](http://caffe.berkeleyvision.org/))  | 3  |
+| MapReduce ([AWS](https://aws.amazon.com/)/[Spark](http://spark.apache.org/))   | 3  |
+| Cloud ([AWS](https://aws.amazon.com/))   | 3  |
+| SQL/NoSQL ([AWS](https://aws.amazon.com/)/[MongoDB](https://www.mongodb.com/))   | 3  | 
+| Distribution (ZMQ)   | 2  |
 
 ## Preview
 
