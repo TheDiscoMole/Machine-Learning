@@ -1,24 +1,19 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
+title: Resume
+tags: [Artificial Intelligence, Languages, Tools]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center> This contains the summized history of my modest Machine Learning skillset. </center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## Coding Skillset
+| Language | /5 |
+| | 
+| Python   |  5   |
+| C++/CUDA   |  4   |
+{: rules="groups"}
 
 ## Preview
 
