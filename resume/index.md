@@ -10,10 +10,10 @@ comments: false
 
 ## Coding Skillset
 
-| Header1 | Header3 |
-|:--------|--------:|
-| cell1   | cell3   |
-| cell4   | cell6   |
+| Language | /5 |
+|:---------|---:|
+| Python   | 5  |
+| C++/CUDA | 4  |
 
 ## Preview
 
