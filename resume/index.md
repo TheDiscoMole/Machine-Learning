@@ -28,7 +28,7 @@ comments: false
 | MapReduce ([AWS](https://aws.amazon.com/)/[Spark](http://spark.apache.org/))   | 3  |
 | Cloud ([AWS](https://aws.amazon.com/))   | 3  |
 | SQL/NoSQL ([AWS](https://aws.amazon.com/)/[MongoDB](https://www.mongodb.com/))   | 3  | 
-| Distribution (ZMQ)   | 2  |
+| Distribution ([ZMQ](http://zeromq.org/))   | 2  |
 
 ## Preview
 
