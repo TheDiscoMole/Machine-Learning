@@ -9,10 +9,10 @@ comments: false
 <center> This contains the summized history of my modest Machine Learning skillset. </center>
 
 ## Coding Skillset
-Language | /5
----      | ---    
-Python   |  5
-C++/CUDA |  4
+| Language | /5    |
+| :-----   | ----: |    
+| Python   |  5    |
+| C++/CUDA |  4    |
 {: rules="groups"}
 
 ## Preview
