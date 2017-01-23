@@ -1,7 +1,7 @@
 # Site
 title:              Kim Roder
-bio:                'My Artificial Intelligence Resume'
-description:        "This is the summized history of my moderately unimpressive Machine Learing skillset"
+bio:                'Artificial Intelligence Resume'
+description:        "This is the summized history of my modest Machine Learning skillset."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/face.jpg'
