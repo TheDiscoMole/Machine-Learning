@@ -8,12 +8,17 @@ comments: false
     
 <center> This contains the summized history of my modest Machine Learning skillset. </center>
 
-## Coding Skillset
+## CODING
 
-| Language | /5 |
-|:---------|---:|
-| Python   | 5  |
-| C++/CUDA | 4  |
+| Language | /5  | Libs/Tools/...                               | /5 |
+|:---------|:---:|:--------------------------------------------:|---:|
+| Python   | 5   | Symbolic Computing (Theano/Tensorflow/Torch) | 4  |
+| C++      | 4   | GPU (CUDA)                                   | 3  |
+| LUA      | 4   | Machine Learning (Keras/Caffe)               | 3  |
+| Java     | 3   | MapReduce (AWS/Spark)                        | 3  |
+| Scala    | 3   | Cloud (AWS)                                  | 3  |
+| NodeJS   | 2   | SQL/NoSQL (AWS/MongoDB)                      | 3  | 
+| Shell    | 2   | Distribution (ZMQ)                           | 2  |
 
 ## Preview
 
