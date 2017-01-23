@@ -5,7 +5,7 @@ description:        "This is the collective history of my blatantly unimpressive
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
+background:         'assets/img/hand_of_an_artist_by_neuron_dreamtime.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://thediscomole.github.io/machine-learning-resume
