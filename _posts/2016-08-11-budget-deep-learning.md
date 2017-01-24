@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Budget Deep Learning"
-date:   2016-03-15
+date:   2016-08-11
 excerpt: "A reasonably functional example of a budget Deep Learning computer build."
 tag:
 - Deep Learning
