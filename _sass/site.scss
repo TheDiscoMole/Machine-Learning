@@ -75,8 +75,11 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
+    
+    background-color: rgba($white,0.2);
 	color: $color_shark;
-	z-index: 1;
+	
+    z-index: 1;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
@@ -103,8 +106,11 @@ body {
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
+    
+    background-color: rgba($white,0.2);
 	color: $color_tuatara;
-	padding: 2em;
+	
+    padding: 2em;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
