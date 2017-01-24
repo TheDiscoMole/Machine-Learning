@@ -24,7 +24,7 @@ A few months ago I build a budget Deep Learning only machine and had trouble fin
 | Case   | Rosewill FBM-02 MicroATX Mini   | ~25   |
 | Power   | EVGA 500W 80+ Bronze   | ~50   |
 |=====
-| Total   | Price   | ~630
+| Total Price  |   | ~630
 {: rules="groups"}
 
 **[List on Partpicker](https://pcpartpicker.com/list/hvX33F)** (not sure if this does expire someday)
