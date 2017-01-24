@@ -44,5 +44,5 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 | Genetic Algorithms ([NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies)/[Swarms](https://en.wikipedia.org/wiki/Swarm_intelligence))      | 3   |
 | Clustering ([K-Means](https://en.wikipedia.org/wiki/K-means_clustering))       | 3   |
 | Network Evaluation ([Page Rank](https://en.wikipedia.org/wiki/Network_science#PageRank)/[Centrality](https://en.wikipedia.org/wiki/Network_science#Centrality_measures))       | 2   |
-| [Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method)       | 2   |
+| [Monte Carlo Simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method)       | 2   |
 | [Random Forest](https://en.wikipedia.org/wiki/Decision_tree_learning)       | 2   |
