@@ -12,19 +12,6 @@ comments: false
 
 A few months ago I build a budget Deep Learning only machine and had trouble finding many good recources online, so here is a list for anyone who is dealing with a similar situation. The machine costs less than $700 with 6GB of device memory and one of the fastest CUDA chips of the current generation. If you are looking to understand the hardware constraints more percisely, such as the recommended PCIe capabilities I was unaware of, *[this tutorial](http://timdettmers.com/2015/03/09/deep-learning-hardware-guide/)* is an amazing place to start. But if you are just looking for a well functioning build to roughly copy, here it is: (all links to products are through partpicker to ensure compatibility)
 
-| Part | Product | Price |
-|:--------|:-------:|--------:|
-| CPU   | Intel Core i3-6100   | ~110   |
-| GPU   | Zotac GeForce GTX 1060 6GB 6GB Mini   | ~250   |
-| RAM   | Kingston HyperX Fury Black 16GB (2 x 8GB) DDR4-2133   | ~110   |
-| SSD   | Kingston SSDNow V300 Series 120GB 2.5"   | ~45   |
-| Moth   | ASRock H110M-HDS Micro ATX LGA1151   | ~45   |
-| Case   | Rosewill FBM-02 MicroATX Mini   | ~25   |
-| Power   | EVGA 500W 80+ Bronze   | ~50   |
-|=====
-| Total Price  |   | ~630
-{: rules="groups"}
-
 <a href="https://pcpartpicker.com/list/hvX33F">PCPartPicker part list</a> / <a href="https://pcpartpicker.com/list/hvX33F/by_merchant/">Price breakdown by merchant</a>
 <table class="pcpp-part-list">
   <thead>
