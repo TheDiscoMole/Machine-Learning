@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Stockfish Bitboard"
-date:   2016-03-15
+date:   2016-11-16
 excerpt: "The dissected code of the Stockfish bitboard and move generator for those who wish to test they chess AI skills."
 tag:
 - Machine Learning
