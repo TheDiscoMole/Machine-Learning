@@ -10,11 +10,8 @@ tag:
 comments: false
 ---
 
-To test the performance of my Neurogensis & Synaptogenesis work I, much like every other AI nerd wanted to see how well it would perform
+To test the performance of my Neurogensis & Synaptogenesis work I, much like every other AI nerd, wanted to see how well it would perform playing a game. Since chess is such a cliche and well established AI community, why not see how an evolving Neural Net performes against existing powerfull engines. None of the major engines use any form of Deep Learning and should probably be classified as Monte Carlo Expert Machines instead of AIs. While dissecting the Stockfish bitboard and move generator from source I realised there would be probably be others out there looking for a legal chess move generator such as this to test their AI. 
 
-**NOTE** 
+**TL;DR** 
 
-* use a Linux distro as your OS (like Arch-Linux) cause it makes the use deep learning tools, libraries and drivers so much easier
-* unless you are planning to overclock (which is pointless for deep learning, you dont need anything other than factory coolers)
-* a better CPU and Motherboard might make sense if you are able to spare the coin and plan to upgrade over time with dual GPU.
-* thanks to the low power consumption craze, power supplies can be bought at even lower Watt-age and price.
+Just want to use Stockfish to generate all legal moves from a position? **[look no further](https://github.com/TheDiscoMole/Stockfish-BitBoard)**
