@@ -41,7 +41,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 | ML Techniques | /5  |
 |:----------|----:|
 | Neural Networks ([ANN](https://en.wikipedia.org/wiki/Artificial_neural_network)/[DQN](https://en.wikipedia.org/wiki/Q-learning)/[CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network)/[LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory)/...)    | 4   |
-| Genetic Algorithms ([NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies))      | 3   |
+| Genetic Algorithms ([NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies)/[Swarms](https://en.wikipedia.org/wiki/Swarm_intelligence))      | 3   |
 | Clustering ([K-Means](https://en.wikipedia.org/wiki/K-means_clustering))       | 3   |
 | Network Evaluation ([Page Rank](https://en.wikipedia.org/wiki/Network_science#PageRank)/[Centrality](https://en.wikipedia.org/wiki/Network_science#Centrality_measures))       | 2   |
 | [Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method)       | 2   |
