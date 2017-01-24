@@ -22,7 +22,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 | Java      | 3   |
 | Scala     | 3   |
 | NodeJS    | 2   |
-| Shell     | 2   |
+| Bash      | 2   |
 
 -----------------------------------------------------------
 
@@ -46,3 +46,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 | Network Evaluation ([Page Rank](https://en.wikipedia.org/wiki/Network_science#PageRank)/[Centrality](https://en.wikipedia.org/wiki/Network_science#Centrality_measures))       | 2   |
 | [Monte Carlo Simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method)       | 2   |
 | [Random Forest](https://en.wikipedia.org/wiki/Decision_tree_learning)       | 2   |
+
+-----------------------------------------------------------
+
+
