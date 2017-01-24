@@ -1,0 +1,74 @@
+
+---
+layout: post
+title:  "Real Intelligence"
+date:   2017-01-01
+excerpt: "My silly attempt at Consciousness."
+project: true
+tag:
+- Artificial Intelligence 
+- Neurogenesis
+- Synaptogenesis
+- Recursion
+- Parallelism
+comments: false
+---
+
+** BUTTON ** Skip Drivel
+
+------------------------------------------------------------
+
+Micro Controllers, Monte Carlo, Random Forest and Data Science Graph Algorithms are all based on conceptual ideas that 
+become increasingly disappointing the more one understands and learns to use them, and as the problems we try to tackle with 
+computational power enter the space imposibility for expert systems the desire for real, human level, AI appears evident. The 
+most promising potential pattern deriving logic is of course the Neural Network with *some* genetic algorithms lagging behind as
+close second, but there is still an insurmountable number of problems before human level cognition can be achieved. Some problems 
+are arbitrary and will solve themselves over time, wheras others require intuitively creative, yet logically rigorous solutions.
+
+------------------------------------------------------------
+
+Since I started studying Computer Science several years ago something has been bugging me and at first it seemed like just another
+coutner-intuitive bit of understanding that would take time to absorb. Relational Databases. Over the years I have come to 
+understand that it wasn't wrong to think they are terrible solutions for data storage and they emerged as a result originally low
+storage capabilities of early computers and slow processors. Obviously information in relation to real world problems never comes
+in this form and thankfully developers made a step in the right direction with non-Relational Databses. Information, interaction
+and relationships never come in simple tabulated formats, they come in the form of an approximating graphical representation.
+Unfortunately, computers have grown from inefficient strict matrix logic ordering which was probably prevalent early on due to
+simplificiation of computer design while the very concepts of computation where still being understood. As a result we are now 
+modeling the real world with computers, which at their very core, are designed very inefficiently for understanding the real world.
+
+Fortunately as Software Developers and Logical Philosophers have tried wrangling free from their rigid hardware constrants our
+computers have evolved for the better through GPU computing. Though still stuck in the past with grids, blocks and thread kernels
+they were a step in the right direction. the direction of self organsing network structures like the Brain. Neural Networks were
+a gorgeous first attempt, trained by the elegent beauty that is gradient descent and so inherently abstract they still amaze us
+funcion approximating properties through articles such as "Deep Dream Art". Still, they are too rigid as Neural Nets, so far, have
+not shown to be dynamic enough. Attempts have been made at topological evolution algorithms such at NEAT with some cute results
+along the way, but none could even reach a fraction of the potential in actual neuro-synaptic pathways. If there is one thing that
+studies of darwinian evolution have shown to be consistently surprising is the uncanny capability of natural selection to slowly 
+approximate what turns out to be provably mathematically "ideal" solutions. None of attempts at Neurogenesis/Synaptogenesis in
+Neural Networks has tickled that elegant fancy, so when my Professor for "Intorduction to Artificial Intelligence" told me it was
+for Neural Nets to evolve their own topology whilst updating synaptic weights I was immediatly hooked.
+
+------------------------------------------------------------
+
+So what makes up a strong Neural Network?
+
+* **Neurons** are a mostly solved part of the problem. By summing the synaptic inputs and activating over a sigmoidal function a 
+probabilistic, standard deviation-like behaviour emerges in each information processing step.
+* **Synapses** are also pretty much completely understood. They take a Neural output and feed it into an output neural over multiplicative 
+weight, simulating linear function over each data-point relationship
+* **Loss** seems to well understood with binary-cross-entropy for true false results and MSE for pretty much everything else, but 
+that might not be even half the story there.
+* **Neurogenesis** & **Synaptogenesis** have had essentially no real breakthroughs eventhough they clearly hold the mammoth
+potential to give Neural Nets that final boost to go from exhaustivily trained models to every device has the same software with 
+some I/O sensory and motor differences.
+
+------------------------------------------------------------
+
+Here is what I am working on:
+
+* **Neurogenesis** & **Synaptogenesis**: Mostly complete. My Neural Networks can grow, shrink, rewire themselves and update 
+synaptic weights. Currently working on a scalable CUDA implementation that can learn from real data-streams in real-time.
+* **Loss-less Net**: Early stages. My Neural Network will be able to learn without the need for training data or loss gradients.
+This currently works, but is not really in implementation stage for scalable code yet. It require completely restucturing the
+current standard design paradigm for my neural above-mentioned Neural Net.
