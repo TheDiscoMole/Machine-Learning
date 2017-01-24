@@ -18,4 +18,28 @@ Most Simple Neural Network implementations on github (or wherever else) suffer e
 
 ------------------------------------------------------------------
 
-Let
+**layer.py** will contain the 3 types of layers in our [feed-forward](https://en.wikipedia.org/wiki/Feedforward_neural_network) graph structure. Input, Hidden and Output. When constructed, these require:
+
+* names which will be used to identify the layers for things like connecting them with Synapses
+* sizes which define how many neurons are present in each layer
+* activation functions to apply to the neural inputs
+* loss functions in the case of the output layer which will help propogate gradients against target data
+
+lets first do the simple stuff, activation & loss functions and their respective derivatives:
+
+{% highlight py %}
+# sigmoidal activation function & derivative
+class Sigmoid:
+    
+    __call__ = lambda self,x: 1 / (1 + np.exp(-x))
+    
+    def gradient(self,x,g):
+        s = self(x)
+        return s * (1 - s) * g
+
+# linear activation function & derivative
+class Linear:
+    
+    __call__  = lambda self,x: x
+    gradient  = lambda self,x,g: g
+{% endhighlight %}
