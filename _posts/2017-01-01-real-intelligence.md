@@ -25,7 +25,7 @@ So what makes up a strong Neural Network?
 
 * **Loss** is the error feedback over which the network learns and readjusts to apporximate state predictions better. Loss functions such as binary-cross-entropy for true-false feedback and mean-squared-error for pretty much everything else are used to deduce error gradients against known evaluations of target data.
 
-* **Neurogenesis**, the brains capability to grow and prune existing neural structures has had essentially no real break-throughs in AI programming appart from some [NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies) genetic algorithms which end up sacrificing gradient descent or don'tt let it take part in the action.
+* **Neurogenesis**, the brains capability to grow and prune existing neural structures has had essentially no real break-throughs in AI programming appart from some [NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies) genetic algorithms which end up sacrificing gradient descent or don't let it take part in the action.
 
 * **Synaptogenesis** is what allows our brain to relate previously unrelated conceptual knowledge by growing, pruning and updating synaptic connections. Progress in this area doing alright with the emergence of Gradient Descent which allows for very clean and computationally fast weight updates. But again, appart from some rough Genetic Algorithms, network rewiring hasn't really gone anywhere.
 
