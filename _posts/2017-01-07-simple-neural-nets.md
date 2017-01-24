@@ -2,23 +2,18 @@
 layout: post
 title:  "Simple Neural Nets"
 date:   2017-01-07
-excerpt: "A simple Neural Network implementation for complex graph stuctures in Python, C++ and CUDA"
+excerpt: "A simple Neural Network implementation for complex graph stuctures in Python"
 tag:
 - Machine Learning
-- contest
-- Codingame
+- Neural Networks
 comments: false
 ---
 
-Most Simple Neural Network implementations on github (or wherever else) suffer either from convoluted explanations or a rigid layered configurations. Has the brain, the inspiration for Neural Nets, proven to be so precisely layered? No, networks are complex in structure and that is something a NN implementation should embrace. We will be looking at a very simple Python implementation of a complexly layered graph. If you just care about the code, here are the links:
-
-* [Python](https://github.com/TheDiscoMole/Simple-Complex-Neural-Net/tree/master/Python)
-* [C++](https://github.com/TheDiscoMole/Simple-Complex-Neural-Net/tree/master/CPP)
-* [CUDA](https://github.com/TheDiscoMole/Simple-Complex-Neural-Net/tree/master/CUDA)
+Most Simple Neural Network implementations on github (or wherever else) suffer either from convoluted explanations or a rigid layered configurations. Has the brain, the inspiration for Neural Nets, proven to be so precisely layered? No, networks are complex in structure and that is something a NN implementation should embrace. We will be looking at a very simple Python implementation of a complexly layered graph.
 
 ------------------------------------------------------------------
 
-**layer.py** will contain the 3 types of layers in our [feed-forward](https://en.wikipedia.org/wiki/Feedforward_neural_network) graph structure. `Input`, `Hidden` and `Output`. When constructed, these require:
+layer.py will contain the 3 types of layers in our [feed-forward](https://en.wikipedia.org/wiki/Feedforward_neural_network) graph structure. `Input`, `Hidden` and `Output`. When constructed, these require:
 
 * names which will be used to identify the layers for things like connecting them with Synapses
 * sizes which define how many neurons are present in each layer
@@ -69,12 +64,15 @@ Additionally we require 2 bits of functionality from each layer:
 * feed-forward propogration; consists of summing the synaptic outputs from the input neurons together with the layer bias and computing the activation function. 
 * gradient descent back propogation; sums the synaptic input gradients from the output neurons, computes the gradient over the activation function and updates the bias.
 
+------------------------------------------------------------------
+
 If you wish to learn the intricacies of gradient descent, this is a good place to start even though there is a confusing mistake in the last part.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5u0jaA3qAGk" frameborder="0" allowfullscreen></iframe>
 
-{% highlight py %}
+------------------------------------------------------------------
 
+{% highlight py %}
 # hidden layer
 class Hidden:
     
@@ -83,9 +81,9 @@ class Hidden:
         self.activation = activation
         
         # input & output vertexes and numpy state matrix
-        self.xs = 0
+        self.xs = []
         self.ns = np.zeros((3,size), dtype=float)
-        self.ys = 0
+        self.ys = []
         
         # used to check if layer has been computed in this
         # complex graph structure
@@ -124,18 +122,32 @@ class Hidden:
         
         # return gradients
         return np.copy(self.ns[1])
+{% endhighlight %}
+
+Next we need a way to connect layers with synaptic links and each synapse needs to have the same functional `forward` and `backward` functions. Thanks to the afore-linked video playlist, finding the derivative of the matrix multiplication happening in `forward` pass is found very easily by matrix multiplying the previous post-activation with the above pre-activated gradient like so:
+
+{% highlight py %}
+# synapse
+class Synapse:
+    # attach the input & output layer and construct the weight matrix
+    def __init__(self, x, y):
+        self.x  = x
+        self.ws = np.random.uniform(-1,1,(x.size,y.size))
+        self.y  = y
+        
+        # attach synapse to input & output layer
+        x.ys.append(self)
+        y.xs.append(self)
     
-    # generator which iterates all input verteces
-    def XS(self):
-        current = self.xs
-        while current:
-            yield current
-            current = current.x_next
+    # compute and return synaptic output
+    def __call__(self, state):
+        return np.dot(self.x(state), self.ws)
     
-    # generator which iterates all output verteces
-    def YS(self):
-        current = self.ys
-        while current:
-            yield current
-            current = current.y_next
+    # compute and return synaptic gradient after making weight updates
+    def gradient(self, state):
+        # synaptic gradient
+        result  = np.dot(self.y.gradient(state), np.transpose(self.ws))
+        # synaptic update
+        self.ws-= np.outer(self.x.ns[2], self.y.gradient(state))
+        return result
 {% endhighlight %}
