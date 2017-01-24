@@ -1,112 +1,36 @@
 ---
 layout: post
-title:  "Markdown Syntax"
+title:  "Budget Deep Learning"
 date:   2016-03-15
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+excerpt: "This is my budget Deep Learning *workstation*."
 tag:
 - markdown 
 - syntax
 - sample
 - test
 - jekyll
-comments: true
+comments: false
 ---
 
-## HTML Elements
+A few months ago I build a budget Deep Learning only machine and had trouble finding many good recources online, so here is a list for anyone who is dealing with a similar situation. The machine costs less than $700 with 6GB of device memory and one of the fastest CUDA chips of the current generation. If you are looking to understand the hardware constraints more percisely, such as the recommended PCIe capabilities I was unaware of, *[this tutorial](http://timdettmers.com/2015/03/09/deep-learning-hardware-guide/)* is an amazing place to start. But if you are just looking for a well functioning build to roughly copy, here it is: (all links to products are through partpicker to ensure compatibility)
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-### Body text
-
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
-
-![Smithsonian Image](https://mmistakes.github.io/minimal-mistakes/images/3953273590_704e3899d5_m.jpg)
-{: .image-right}
-
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
-
-HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
-
-### Blockquotes
-
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
-
-## List Types
-
-### Ordered Lists
-
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
-
-### Unordered Lists
-
-* Item one
-* Item two
-* Item three
-
-## Tables
-
-| Header1 | Header2 | Header3 |
+| Part | Product | Price |
 |:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| CPU   | Intel Core i3-6100   | ~110   |
+| GPU   | Zotac GeForce GTX 1060 6GB 6GB Mini   | ~250   |
+| RAM   | Kingston HyperX Fury Black 16GB (2 x 8GB) DDR4-2133   | ~110   |
+| SSD   | Kingston SSDNow V300 Series 120GB 2.5"   | ~45   |
+| Moth   | ASRock H110M-HDS Micro ATX LGA1151   | ~45   |
+| Case   | Rosewill FBM-02 MicroATX Mini   | ~25   |
+| Power   | EVGA 500W 80+ Bronze   | ~50   |
 |=====
-| Foot1   | Foot2   | Foot3
+| Total   | Price   | ~630
 {: rules="groups"}
 
-## Code Snippets
+**[List on Partpicker](https://pcpartpicker.com/list/hvX33F)** (not sure if this does expire someday)
+**NOTE** 
 
-{% highlight css %}
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-{% endhighlight %}
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-{% highlight html %}
-<a href="#" class="btn btn-success">Success Button</a>
-{% endhighlight %}
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
-
-## KBD
-
-You can also use `<kbd>` tag for keyboard buttons.
-
-{% highlight html %}
-<kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>
-{% endhighlight %}
-
-Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move your car. **Midtown Maddness!!**
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+* use a Linux distro as your OS (like Arch-Linux) cause it makes the use deep learning tools, libraries and drivers so much easier
+* unless you are planning to overclock (which is pointless for deep learning, you dont need anything other than factory coolers)
+* a better CPU and Motherboard might make sense if you are able to spare the coin and plan to upgrade over time with dual GPU.
+* thanks to the low power consumption craze power supplies can be bought at even lower Watt-age and price.
