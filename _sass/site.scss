@@ -76,7 +76,7 @@ body {
 	padding-left: 15px;
 	@include center-block();
     
-    background-color: rgba($white,0.2);
+    background-color: rgba($white,0.5);
 	color: $color_shark;
 	
     z-index: 1;
@@ -107,7 +107,7 @@ body {
 	max-width: 850px;
 	margin: 4rem auto;
     
-    background-color: rgba($white,0.2);
+    background-color: rgba($white,0.5);
 	color: $color_tuatara;
 	
     padding: 2em;
