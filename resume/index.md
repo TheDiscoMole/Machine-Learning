@@ -25,7 +25,7 @@ comments: false
 | Libs/Tools/... | /5 |
 |:--------------------------------------------|---:|
 | Symbolic Computing ([Theano](http://deeplearning.net/software/theano/)/[Tensorflow](https://www.tensorflow.org/)/[Torch](http://torch.ch/))  | 4  |
-| GPU ([CUDA](http://www.nvidia.com/object/cuda_home_new.html))  | 3  |
+| GPU ([CUDA](http://www.nvidia.com/object/cuda_home_new.html))  | 4  |
 | Machine Learning ([Keras](http://keras.io/)/[Caffe](http://caffe.berkeleyvision.org/))  | 3  |
 | MapReduce ([AWS](https://aws.amazon.com/)/[Spark](http://spark.apache.org/))   | 3  |
 | Cloud ([AWS](https://aws.amazon.com/))   | 3  |
