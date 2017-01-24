@@ -50,7 +50,7 @@ for Neural Nets to evolve their own topology whilst updating synaptic weights I 
 
 ------------------------------------------------------------
 
-So what makes up a Neural Network?
+So what makes up a strong Neural Network?
 
 * **Neurons** are a mostly solved part of the problem. By summing the synaptic inputs and activating over a sigmoidal function a 
 probabilistic, standard deviation-like behaviour emerges in each information processing step.
@@ -61,3 +61,13 @@ that might not be even half the story there.
 * **Neurogenesis** & **Synaptogenesis** have had essentially no real breakthroughs eventhough they clearly hold the mammoth
 potential to give Neural Nets that final boost to go from exhaustivily trained models to every device has the same software with 
 some I/O sensory and motor differences.
+
+------------------------------------------------------------
+
+Here is what I am working on:
+
+* **Neurogenesis** & **Synaptogenesis**: Mostly complete. My Neural Networks can grow, shrink, rewire themselves and update 
+synaptic weights. Currently working on a scalable CUDA implementation that can learn from real data-streams in real-time.
+* **Loss-less Net**: Early stages. My Neural Network will be able to learn without the need for training data or loss gradients.
+This currently works, but is not really in implementation stage for scalable code yet. It require completely restucturing the
+current standard design paradigm for my neural above-mentioned Neural Net.
