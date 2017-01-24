@@ -2,7 +2,7 @@
 layout: post
 title:  "Budget Deep Learning"
 date:   2016-03-15
-excerpt: "This is my budget Deep Learning *workstation*."
+excerpt: "This is my budget Deep Learning "workstation"."
 tag:
 - markdown 
 - syntax
