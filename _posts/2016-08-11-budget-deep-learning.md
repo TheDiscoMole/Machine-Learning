@@ -103,8 +103,6 @@ A few months ago I build a budget Deep Learning only machine and had trouble fin
 
 ---------------------------------------------------------------
 
-**[List on Partpicker](https://pcpartpicker.com/list/hvX33F)** (not sure if this does expire someday)
-
 **NOTE** 
 
 * use a Linux distro as your OS (like Arch-Linux) cause it makes the use deep learning tools, libraries and drivers so much easier
