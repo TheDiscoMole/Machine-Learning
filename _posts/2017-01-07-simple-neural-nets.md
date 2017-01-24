@@ -43,3 +43,17 @@ class Linear:
     __call__  = lambda self,x: x
     gradient  = lambda self,x,g: g
 {% endhighlight %}
+
+{% highlight py %}
+# binary cross entropy and derivative
+class CrossEntropy:
+
+    __call__ = lambda self,y,t: - t * np.log(y) - (1 - t) * np.log(1 - y)
+    gradient = lambda self,y,t: (t - y) / ((y - 1) * y)
+
+# mean squared error and derivative
+class MSE:
+    
+    __call__ = lambda self,y,t: ((y - t) / 2) ** 2
+    gradient = lambda self,y,t: 2 * (y - t)
+{% endhighlight %}
