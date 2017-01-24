@@ -4,11 +4,9 @@ title:  "Budget Deep Learning"
 date:   2016-03-15
 excerpt: "A reasonably functional example of a budget Deep Learning computer build."
 tag:
-- markdown 
-- syntax
-- sample
-- test
-- jekyll
+- Deep Learning
+- PC Build
+- GTX 1060
 comments: false
 ---
 
