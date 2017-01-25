@@ -17,7 +17,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 -----------------------------------------------------------
 
 | English International College<br>2008 - 2010<br>A-Levels<br>GPA: A | Mathematics, Further Mathematics, Pyssics and German |
-| Imperial College London<br>2011 - 2012<br>MEng Mathematics and Computer Science<br>*withdrawn* | Linear Algebra, Methods, Analysis, Logic, Programming, Achritecture... |
+| Imperial College London<br>2011 - 2012<br>MEng Mathematics and Computer Science<br>*withdrawn* | Linear Algebra, Methods, Analysis, Logic, Programming, Achritecture...<br><br><br> |
 
 
 **English International College** *2008 - 2010* **A-Levels** *(GPA: A)*: Mathematics, Further Mathematics, Pyssics and German 
