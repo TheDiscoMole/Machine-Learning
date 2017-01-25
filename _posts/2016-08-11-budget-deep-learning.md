@@ -103,9 +103,8 @@ A few months ago I build a budget Deep Learning only machine and had trouble fin
 
 ---------------------------------------------------------------
 
-**NOTE** 
-
 * use a Linux distro as your OS (like Arch-Linux) cause it makes the use deep learning tools, libraries and drivers so much easier
 * unless you are planning to overclock (which is pointless for deep learning, you dont need anything other than factory coolers)
 * a better CPU and Motherboard might make sense if you are able to spare the coin and plan to upgrade over time with dual GPU.
 * thanks to the low power consumption craze, power supplies can be bought at even lower Watt-age and price.
+{: .notice}
