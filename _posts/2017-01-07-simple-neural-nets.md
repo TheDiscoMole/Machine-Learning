@@ -192,6 +192,9 @@ class Output:
     
     # output gradient descent
     def gradient(self, ts, state):
+        # compute errors
+        errors = cost(ts)
+    
         # check if the layer has been computed in this state
         if self.computed != state:
             ns = self.ns
@@ -205,8 +208,8 @@ class Output:
             
             self.computed = state
         
-        # return gradients
-        return np.copy(self.ns[1])
+        # return errors
+        return errors
     
     # output layer cost
     def cost(self, ts):
@@ -291,9 +294,9 @@ class Graph:
     def gradient(self, xs, ts):
         # compute layer outputs
         ys = self(xs)
-        # compute graph wide error
-        cost = sum(self.ys[n].gradient(ys[n], ts[n], self.state) for n in ys)
-        # load output layers with cost gradients
+        # compute graph wide error & load output layers with cost gradients
+        cost = sum(self.ys[n].gradient(ts[n], self.state) for n in ys)
+        # gradient descent
         for x in self.xs.values():
             x.gradient(self.state)
         # reset graph state adn return cost
