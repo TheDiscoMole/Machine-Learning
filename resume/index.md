@@ -10,45 +10,9 @@ comments: false
 
 -----------------------------------------------------------
 
-## EDUCATION
-
-Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quatum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was messy and I dropped out of University twice it was never really due to an inability to keep up with the course. It was more the result of inner discourse and a boredom with the slow and often disappointing, supposed, intellectual stimulation university is known for. *Here is a summary of what my official education has entailed so far:*
-
------------------------------------------------------------
-
-2010: [graduated](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM) from the **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level)** in:
-
-* Mathematics
-* Further Mathematics
-* Physics
-* Economics
-* German
-
-2012: withdrew from **[Imperial College London](https://www.imperial.ac.uk/)** studying **[MEng Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**, some courses entailed:
-
-* Linear Algebra
-* Methods
-* Analysis
-* Logic
-* Programming
-* ...
-
-2015: withdrew from **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[BEng Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**, some courses entailed:
-
-* Artificial Intelligence
-* Robotics
-* Control Systems
-* Agents and Multi-Agent Systems
-* Computer Vision
-* Pattern Recognition
-* Signals and Systems
-* ...
-
------------------------------------------------------------
-
 ## SKILLS
 
-Fortunately i was born in the age of the internet and computers. If there is something you wish to learn about there will be dozens of videos on YouTube showing you how, especially if it involves programming. The last year or so I have been delving into Psychological/Neurological phenomena such as [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients and the [Motor & Sensory Homonculus](https://en.wikipedia.org/wiki/Cortical_homunculus) to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning involving Linear Algebra, Gradient Descent & Derivatives, etc and getting to firm grips with useful programming languages and tools to implement actual solutions. The entire learning process has been part of my [main interest and project in AI](/machine-learning/real-intelligence/). *Below you will find a rough ranking of my Deep Learning relatated skillset:*
+The last year or so I have been delving into Psychological & Neurological phenomena such as [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients and the [Motor & Sensory Homonculus](https://en.wikipedia.org/wiki/Cortical_homunculus) to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning like Linear Algebra, Gradient Descent & Derivatives, etc and getting to firm grips with useful programming languages and tools to implement actual solutions. The entire learning process has been part of my [main interest and project in AI](/machine-learning/real-intelligence/). *Below you will find a rough ranking of my Deep Learning relatated skillset:*
 
 -----------------------------------------------------------
 
@@ -84,6 +48,42 @@ Fortunately i was born in the age of the internet and computers. If there is som
 | Network Evaluation ([Page Rank](https://en.wikipedia.org/wiki/Network_science#PageRank)/[Centrality](https://en.wikipedia.org/wiki/Network_science#Centrality_measures))       | 2   |
 | [Monte Carlo Simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method)       | 2   |
 | [Random Forest](https://en.wikipedia.org/wiki/Decision_tree_learning)       | 2   |
+
+-----------------------------------------------------------
+
+## EDUCATION
+
+Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quatum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was messy and I dropped out of University twice, it was never really due to an inability to keep up with the course. It was more the result of inner discourse and a boredom with the slow and often disappointing, supposed, intellectual stimulation university is known for. *Here is a summary of what my official education has entailed so far:*
+
+-----------------------------------------------------------
+
+2010: [graduated](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM) from the **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level)** in:
+
+* Mathematics
+* Further Mathematics
+* Physics
+* Economics
+* German
+
+2012: withdrew from **[Imperial College London](https://www.imperial.ac.uk/)** studying **[MEng Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**, some courses entailed:
+
+* Linear Algebra
+* Methods
+* Analysis
+* Logic
+* Programming
+* ...
+
+2015: withdrew from **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[BEng Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**, some courses entailed:
+
+* Artificial Intelligence
+* Robotics
+* Control Systems
+* Agents and Multi-Agent Systems
+* Computer Vision
+* Pattern Recognition
+* Signals and Systems
+* ...
 
 -----------------------------------------------------------
 
