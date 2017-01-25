@@ -40,7 +40,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 <style type="text/css">
 #wrap {
-   
+   margin:0 auto;
 }
 #left_col {
    float:left;
