@@ -75,7 +75,46 @@ If you wish to learn the intricacies of gradient descent, this is a good place t
 ------------------------------------------------------------------
 
 {% highlight py %}
-# hidden layer
+class Input:
+    
+    def __init__(self, name, size, activation):
+        self.name = name
+        self.activation = activation
+        
+        # init outputs and  state
+        self.ns = np.zeros((3,size), dtype=float)
+        self.ys = []
+    
+    # overload __call__ operator for feed forward function
+    def __call__(self, xs, state):
+        # check if the layer has been computed in this state
+        if self.computed != state:
+            ns = self.ns
+            # load inputs and add bias
+            ns[1] = xs + ns[0]
+            # compute input activation
+            ns[2] = activation(ns[1])
+            # update state
+            computed = state
+        
+        # return layer outputs
+        return np.copy(self.ns[2])
+    
+    # input gradients
+    def gradient(self, state):
+        # check if the layer has been computed in this state
+        if self.computed != state:
+            ns = self.ns
+            
+            # sum output gradients
+            ns[2] = sum(y.gradient(state) for y in self.ys)
+            # compute elementwise activation gradient
+            ns[1] = ns[2] * self.activation.gradient(ns[1])
+            # update bias with learning rate = 0.1
+            ns[0]-= .1 * ns[1]
+            
+            self.computed = state
+
 class Hidden:
     
     def __init__(self, name, size, activation):
@@ -123,12 +162,60 @@ class Hidden:
         
         # return gradients
         return np.copy(self.ns[1])
+
+class Output:
+    
+    def __init__(self, name, size, activation, loss):
+        self.name = name
+        self.activation = activation
+        self.loss = loss
+        
+        # init inputs and state
+        self.xs = []
+        self.ns = np.zeros((3,size), dtype=float)
+    
+    # overload __call__ operator for feed forward function
+    def __call__(self, state):
+        # check if the layer has been computed in this state
+        if self.computed != state:
+            ns = self.ns
+            
+            # sum inputs with bias
+            ns[1] = ns[0] + sum(x(state) for x in self.xs)
+            # compute elementwise activation
+            ns[2] = self.activation(ns[1])
+            
+            self.computed = state
+        
+        # return layer outputs
+        return np.copy(self.ns[2])
+    
+    # output gradient descent
+    def gradient(self, ts, state):
+        # check if the layer has been computed in this state
+        if self.computed != state:
+            ns = self.ns
+            
+            # loss gradients
+            ns[2] = loss.gradient(ns[2], ts)
+            # compute elementwise activation gradient
+            ns[1] = ns[2] * self.activation.gradient(ns[1])
+            # update bias with learning rate = 0.1
+            ns[0]-= .1 * ns[1]
+            
+            self.computed = state
+        
+        # return gradients
+        return np.copy(self.ns[1])
+    
+    # output layer cost
+    def cost(self, ts):
+        return np.sum(self.loss(ns[2], ts))
 {% endhighlight %}
 
 Next we need a way to connect layers with synaptic links and each synapse needs to have the same functional `forward` and `backward` functions. Thanks to the afore-linked video playlist we know the realtionship between input and output neurons is linear, which makes for some very neat gradients. The gradients wrt to the input become the output gradients multiplied by the weight matrix transposed, and the gradients wrt to the weights become the matrix multiplication of the input and the output transposed:
 
 {% highlight py %}
-# synapse
 class Synapse:
     
     def __init__(self, x, y):
@@ -154,3 +241,64 @@ class Synapse:
         # return gradients
         return result
 {% endhighlight %}
+
+Finally we have all the tools we need to combine it all into a `Graph` class with a front facing API for Neural Network training.
+
+{% highlight py %}
+# relate input string to relevant activation/loss function
+Loss = {'entropy':CrossEntropy(), 'mse':MSE()}
+Activation = {'sigmoid':Sigmoid() ,'linear':ReLu()}
+
+class Graph:
+    
+    def __init__(self):
+        self.xs = {} # input layers
+        self.ns = {} # hidden layers
+        self.ys = {} # output layers
+        
+        self.state = True
+   
+    def add_input(self, name, size, activation='linear'):
+        self.xs[name] = Input(name, size, Activation[activation])
+    
+    def add_hidden(self, name, size, activation='sigmoid'):
+        self.ns[name] = Node(name, size, Activation[activation]);
+    
+    def add_output(self, name, size, activation='sigmoid', loss='entropy'):
+        self.ys[name] = Output(name, size, Activation[activation], Loss[loss])
+    
+    # connect layers with a synapse
+    def connect(self, x, y):
+        if x in self.xs: x = self.xs[x]
+        if x in self.ns: x = self.ns[x]
+        
+        if y in self.ns: y = self.ns[y]
+        if y in self.ys: y = self.ys[y]
+        
+        Synapse(x,y)
+    
+    # overload __call__ with feed forward computation
+    def __call__(self, xs):
+        # load each input layer with provided inputs
+        for name in xs:
+            self.xs[name](xs[name], self.state)
+        # compute layer outputs
+        result = {name:y(self.state) for name,y in self.ys.items()}
+        # reset graph state and return results
+        self.state = not self.state
+        return result
+    
+    def gradient(self, xs, ts):
+        # compute layer outputs
+        ys = self(xs)
+        # compute graph wide error
+        cost = sum(self.ys[n].gradient(ys[n], ts[n], self.state) for n in ys)
+        # load output layers with cost gradients
+        for x in self.xs.values():
+            x.gradient(self.state)
+        # reset graph state adn return cost
+        self.state = not self.state
+        return cost
+{% endhighlight %}
+
+**NOTE**: This code clearly hasen't been filled with error/consistency checks, so it only works if the user knows how to use the interface correctly. Additionally there is no trained model storage or load function, so if you wish to keep your trained progress this would need to be implemented still.
