@@ -150,7 +150,7 @@ class Synapse:
         # input gradients
         result  = np.dot(self.y.gradient(state), np.transpose(self.ws))
         # weight updates
-        self.ws-= np.outer(self.x.ns[2], self.y.gradient(state))
+        self.ws-= np.outer(self.x(not state), self.y.gradient(state))
         # return gradients
         return result
 {% endhighlight %}
