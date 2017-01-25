@@ -20,9 +20,15 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 -----------------------------------------------------------
 
-**Imperial College London** - *2011 - 2012*: University education in "MEng Mathematics and Computer Science" *(Withdrawn in year 1)*
+**Imperial College London** *2011 - 2012* **MEng Mathematics and Computer Science** *(Withdrawn)*
 
-**King's College London** - *2012 - 2015*: University education in "BEng Computer Science with Intelligent Systems" *(Withdrawn in year 3)*
+| k | k |
+|:---|---:|
+| k | k |
+{.align-left}
+
+**King's College London** *2012 - 2015* **BEng Computer Science with Intelligent Systems** *(Withdrawn)*
+
 
 -----------------------------------------------------------
 
@@ -71,4 +77,4 @@ Even though I haven't had much professional experience there are some things wor
 
 **Localsoft Games** - *2011 - 2012* - **Video Game Tester**: QA Testing position which allowed me to become familiar with the general Software Testing procedures employed by larger corporations.
 
-**Onalytica** - *Summer 2014* - **Data Scientist Intern**: Helped the lead Data Scientist prototype some real time Twitter analytics solutions.
+**Onalytica** - *Summer 2014* - **Data Scientist Intern**: Helped the lead Data Scientist prototype some real time Twitter analytics solutions. *(reference available on request)*
