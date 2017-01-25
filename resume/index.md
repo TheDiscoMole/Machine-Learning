@@ -10,6 +10,8 @@ comments: false
 
 -----------------------------------------------------------
 
+### EDUCATION
+
 Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quatum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was messy and I dropped out of University twice it was never really due to an inability to keep up with the course. It was more the result of inner discourse and a boredom with the slow and often disappointing, supposed, intellectual stimulation university is known for. *Here is a summary of what my official education has entailed so far:*
 
 ----------------------------------------------------------- 
