@@ -40,16 +40,13 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 <style type="text/css">
 #wrap {
-   width:600px;
-   margin:0 auto;
+   
 }
 #left_col {
    float:left;
-   width:300px;
 }
 #right_col {
    float:right;
-   width:300px;
 }
 </style>
 
@@ -61,13 +58,6 @@ Over the years my intellectual interests have shifted here and there. From Mathe
         ...
     </div>
 </div>
-
-<div class="left">left</div>
-<div class="right">right</div>
-
-.left {
-    float: left;    
-}
 
 -----------------------------------------------------------
 
