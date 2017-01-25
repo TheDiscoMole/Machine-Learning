@@ -22,7 +22,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 <table>
 <tr>
-    <td><b>English Internation College:</b> 2008 - 2011<br />A-Levels</td>
+    <td><b>English Internation College:</b> 2008 - 2011<br />A-Levels<br /><br /></td>
     <td>Mathematics: A<br />Further Mathematics: A<br />Pysics: A<br />German: A<br /></td>
 </tr>
 <tr>
