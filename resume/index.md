@@ -41,17 +41,17 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 <style type="text/css">
 #left_col {
   float: left ;
-  width: 50% ;
+  width: 45% ;
 }
 #right_col {
   float: right;
-  width: 50%;
+  width: 45%;
 }
 </style>
 
 <div id="wrap">
     <div id="left_col">
-        English Internation College: | 2008 - 2010 | A-Levels (GPA: A)
+        English Internation College <br />2008 - 2010 | A-Levels (GPA: A)
     </div>
     <div id="right_col">
         Mathematics, Further Mathematics, Pysics, German
