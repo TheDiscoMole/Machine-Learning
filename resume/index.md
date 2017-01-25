@@ -22,16 +22,16 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 <table>
 <tr>
-    <td><b>English Internation College:</b> 2008 - 2011<br />A-Levels<br /><br /></td>
-    <td>Mathematics: A<br />Further Mathematics: A<br />Pysics: A<br />German: A<br /></td>
+    <td><b>English Internation College:</b> 2008 - 2011<br />A-Levels (GPA: A)</td>
+    <td>Mathematics, Further Mathematics, Pysics, German</td>
 </tr>
 <tr>
-    <td><b>Imperial College London:</b> 2011 - 2012<br />MEng Mathematics and Computer Science <i>(withdrawn)</i></td>
-    <td>Value 1</td>
+    <td><b>Imperial College London:</b> 2011 - 2012<br />MEng Mathematics and Computer Science (withdrawn)</td>
+    <td>Linear Algebra, Analysis, Methods, Programming, Logic, Architecture...</td>
 </tr>
 <tr>
-    <td><b>King's College London:</b> 2012 - 2015<br />BEng Computer Science with Intelligent Systems <i>(withdrawn)</i></td>
-    <td>Value 2</td>
+    <td><b>King's College London:</b> 2012 - 2015<br />BEng Computer Science with Intelligent Systems (GPA: 2.1 withdrawn)</td>
+    <td>Artificial Intelligence, Robotics, Agents and Multi-Agent Systems, Computer Vision, Pattern Recognition, Signals and systems, ...</td>
 </tr>
 </table>
 
