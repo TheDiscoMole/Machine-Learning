@@ -93,6 +93,13 @@ Even though I haven't had much professional experience there are some things wor
 
 -----------------------------------------------------------
 
-2011-2012: worked at **[Localsoft Games](http://www.localsoft.com/)** as a **Video Game Tester**. This job entailed various forms of QA testing and allowed me to become familiar with software testing procedures employed by larger coporations.
+2011-2012: worked at **[Localsoft Games](http://www.localsoft.com/)** as a **Video Game Tester**, this job entailed:
 
-summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a **[Data Scientist](https://en.wikipedia.org/wiki/Data_science) Intern** and helped the lead Data Scientist prototype some real time Twitter analytics solutions. *[Reference](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00)*
+* Localisation Testing
+* QA Software Testing
+
+summer 2014: [worked](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00) at **[Onalytica](http://www.onalytica.com/)** as a **[Data Scientist](https://en.wikipedia.org/wiki/Data_science) Intern**, this job entailed:
+
+* Real-Time Datastreams
+* Network Analysis
+* Cloud Computing
