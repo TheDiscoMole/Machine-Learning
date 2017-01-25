@@ -65,8 +65,8 @@ Fortunately i was born in the age of the internet and computers. If there is som
 
 ## EXPERIENCE
 
-Even though I haven't had much professional experience there are some things worth mentioning in relation to a software/machine learning placement.
+Even though I haven't had much professional experience there are some things worth mentioning in relation to a protential software/machine learning placement.
 
 **Localsoft Games** - *2011 - 2012* - **Video Game Tester**: QA Testing position which allowed me to become familiar with the general Software Testing procedures employed by larger corporations.
 
-**Onalytica** - *Summer 2014* - **Data Scientist Intern**: Helped the lead Data Scientist prototype some real time Twitter analytics solutions. *(reference available on request)*
+**Onalytica** - *Summer 2014* - **Data Scientist Intern**: Helped the lead Data Scientist prototype some real time Twitter analytics solutions. *[Reference](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00)*
