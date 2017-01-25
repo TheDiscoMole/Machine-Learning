@@ -16,29 +16,32 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 -----------------------------------------------------------
 
-| School | Subjects |
-|--------+----------|
-| [English International College](http://eicmarbella.org/) | Mathematics, Further Mathematics, Pysics, Economics and German |
-| 2008 - 2010 | |
-| [A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level) | |
-| [Grades](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM) | |
-|--------+----------|
-| [Imperial College London](https://www.imperial.ac.uk/) | Linear Algebra, Methods, Analysis, Logic, Programming, Achritecture... |
-| 2008 - 2010 | |
-| [MEng Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/) | |
-| *withdrawn* | |
-|--------+----------|
-| [King's College London](http://www.kcl.ac.uk/index.aspx) | Artificial Intelligence, Robotics, Agents and Multi-Agent Systems, Computer Vision, Pattern Recognition, Signals and systems, ... |
-| 2012 - 2015 | |
-| [BEng Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx) | |
-| GPA: 2.1 *withdrawn* | |
+2010: graduated from the **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level)** in:
 
+* Mathematics
+* Further Mathematics
+* Physics
+* Economics
+* German
 
-**English International College** *2008 - 2010* **A-Levels** *(GPA: A)*: Mathematics, Further Mathematics, Pyssics and German 
+2012: withdrew from **[Imperial College London](https://www.imperial.ac.uk/)** studying **[MEng Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**, some courses entailed:
 
-**Imperial College London** *2011 - 2012* **MEng Mathematics and Computer Science** *(Withdrawn)*: Linear Algebra, Methods, Analysis, Logic, Programming, Achritecture...
+* Linear Algebra
+* Methods
+* Analysis
+* Logic
+* Programming
+* ...
 
-**King's College London** *2012 - 2015* **BEng Computer Science with Intelligent Systems** *(GPA: 2.1 withdrawn)*: Artificial Intelligence, Robotics, Agents and Multi-Agent Systems, Computer Vision, Pattern Recognition, Signals and systems, ...
+2015: withdrew from **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[BEng Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**, some courses entailed:
+
+* Artificial Intelligence
+* Robotics
+* Agents and Multi-Agent Systems
+* Computer Vision
+* Pattern Recognition
+* Signals and systems
+* ...
 
 -----------------------------------------------------------
 
