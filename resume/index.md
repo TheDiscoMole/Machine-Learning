@@ -25,7 +25,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 |  k  |  k  |
 |:----|----:|
 |   k |   k |
-{.align-left}
+{.text-align: left;}
 
 **King's College London** *2012 - 2015* **BEng Computer Science with Intelligent Systems** *(Withdrawn)*
 
