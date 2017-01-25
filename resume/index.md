@@ -20,7 +20,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 **Imperial College London** *2011 - 2012* **MEng Mathematics and Computer Science** *(Withdrawn)*
 
-| **English Internation College:** | 2008 - 2010 | A-Levels (GPA: A) | Mathematics, Further Mathematics, Pysics, German |
+|  |  |
 | **Imperial College London:** | 2011 - 2012 | MEng Mathematics and Computer Science (withdrawn) | Linear Algebra, Analysis, Methods, Programming, Logic, Architecture... |
 
 <table>
@@ -51,10 +51,10 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 <div id="wrap">
     <div id="left_col">
-        ...
+        English Internation College: | 2008 - 2010 | A-Levels (GPA: A)
     </div>
     <div id="right_col">
-        ...
+        Mathematics, Further Mathematics, Pysics, German
     </div>
 </div>
 
