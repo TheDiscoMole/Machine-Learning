@@ -37,6 +37,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 * Artificial Intelligence
 * Robotics
+* Control Systems
 * Agents and Multi-Agent Systems
 * Computer Vision
 * Pattern Recognition
