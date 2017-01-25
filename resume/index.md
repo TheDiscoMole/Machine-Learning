@@ -62,6 +62,13 @@ Over the years my intellectual interests have shifted here and there. From Mathe
     </div>
 </div>
 
+<div class="left">left</div>
+<div class="right">right</div>
+
+.left {
+    float: left;    
+}
+
 -----------------------------------------------------------
 
 Fortunately i was born in the age of the internet and computers. If there is something you wish to learn about there will be dozens of videos on YouTube showing you how, especially if it involves programming. The last year or so I have been delving into Psychological/Neurological phenomena such as [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients and the [Motor & Sensory Homonculus](https://en.wikipedia.org/wiki/Cortical_homunculus) to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning involving Linear Algebra, Gradient Descent & Derivatives, etc and getting to firm grips with useful programming languages and tools to implement actual solutions. The entire learning process has been part of my [main interest and project in AI](/machine-learning/real-intelligence/). *Below you will find a rough ranking of my Deep Learning relatated skillset:*
