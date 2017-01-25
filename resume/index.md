@@ -22,6 +22,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 **Imperial College London** *2011 - 2012* **MEng Mathematics and Computer Science** *(Withdrawn)*
 
+| Header  | Header  | Header  |
 |:--------|:--------|:--------|
 | cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |
