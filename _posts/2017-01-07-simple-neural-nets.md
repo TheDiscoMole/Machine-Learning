@@ -216,6 +216,8 @@ class Output:
         return np.sum(self.loss(ns[2], ts))
 {% endhighlight %}
 
+------------------------------------------------------------------
+
 Next we need a way to connect layers with synaptic links and each synapse needs to have the same functional `forward` and `backward` functions. Thanks to the afore-linked video playlist we know the realtionship between input and output neurons is linear, which makes for some very neat gradients. The gradients wrt to the input become the output gradients multiplied by the weight matrix transposed, and the gradients wrt to the weights become the matrix multiplication of the input and the output transposed:
 
 {% highlight py %}
@@ -244,6 +246,8 @@ class Synapse:
         # return gradients
         return result
 {% endhighlight %}
+
+------------------------------------------------------------------
 
 Finally we have all the tools we need to combine it all into a `Graph` class with a front facing API for Neural Network training.
 
@@ -303,5 +307,7 @@ class Graph:
         self.state = not self.state
         return cost
 {% endhighlight %}
+
+------------------------------------------------------------------
 
 **NOTE**: This code clearly hasen't been filled with error/consistency checks, so it only works if the user knows how to use the interface correctly. Additionally there is no trained model storage or load function, so if you wish to keep your trained progress this would need to be implemented still.
