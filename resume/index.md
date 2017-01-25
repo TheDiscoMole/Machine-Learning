@@ -33,6 +33,11 @@ table{text-align: left;}.
 |=====
 | Foot1   | Foot2   | Foot3   |
 
+
+table{text-align:left;}.
+|This|is|a centered table|row|
+|This|is|a|row-row-row-row|
+
 **King's College London** *2012 - 2015* **BEng Computer Science with Intelligent Systems** *(Withdrawn)*
 
 
