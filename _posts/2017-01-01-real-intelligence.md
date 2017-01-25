@@ -35,7 +35,7 @@ Here is what I am working on:
 
 * **Neurogenesis** & **Synaptogenesis**: Finishing Stages. My Neural Networks can grow, shrink, rewire themselves and update synaptic weights in one *relatively* clean parallel algorithm. Currently working on a scalable CUDA implementation that can learn from real data-streams in real-time. (unfortunately due to needed hardware functionality which not supported by current GPU & CPU technology, some of the growing and pruning logic has to be handled in Host)
 
-* **Loss-less Net**: Prototyping stages. The Network will be able to learn without the **need** for training data or loss gradients (having tagged data will still help). This currently works, but is not really at implementation stage for scalable code yet. It require restucturing the current design paradigm for my above-mentioned Neural Net quite a bit. 
+* **Loss-less Net**: Prototyping stages. The Network will be able to learn without the *need* for training data or loss gradients (having tagged data will obviously still help). This currently works, but is not really at implementation stage for scalable code yet. It require restucturing the current design paradigm for my above-mentioned Neural Net quite a bit. 
 
 * **Fractalisation**: Concept stages. Using inheritance, the network objects will ideally become completely self similar and allow for growing, pruning and rewiring of entirely interconnected sub-graphs, and thus, higher level learning.
 
