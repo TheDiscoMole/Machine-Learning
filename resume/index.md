@@ -22,9 +22,9 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 **Imperial College London** *2011 - 2012* **MEng Mathematics and Computer Science** *(Withdrawn)*
 
-| k | k |
-|:---|---:|
-| k | k |
+|  k  |  k  |
+|:----|----:|
+|   k |   k |
 {.align-left}
 
 **King's College London** *2012 - 2015* **BEng Computer Science with Intelligent Systems** *(Withdrawn)*
