@@ -20,17 +20,17 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 **Imperial College London** *2011 - 2012* **MEng Mathematics and Computer Science** *(Withdrawn)*
 
-| test | test |
-| test | test |
+| **English Internation College:** | 2008 - 2010 | A-Levels (GPA: A) | Mathematics, Further Mathematics, Pysics, German |
+| **Imperial College London:** | 2011 - 2012 | MEng Mathematics and Computer Science (withdrawn) | Linear Algebra, Analysis, Methods, Programming, Logic, Architecture... |
 
 <table>
 <tr>
-    <td><b>English Internation College:</b> 2008 - 2011<br />A-Levels (GPA: A)</td>
-    <td>Mathematics, Further Mathematics, Pysics, German</td>
+    <td><b></b> <br /></td>
+    <td></td>
 </tr>
 <tr>
-    <td><b>Imperial College London:</b> 2011 - 2012<br />MEng Mathematics and Computer Science (withdrawn)</td>
-    <td>Linear Algebra, Analysis, Methods, Programming, Logic, Architecture...</td>
+    <td><b></b> <br /></td>
+    <td></td>
 </tr>
 <tr>
     <td><b>King's College London:</b> 2012 - 2015<br />BEng Computer Science with Intelligent Systems (GPA: 2.1 withdrawn)</td>
