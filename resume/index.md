@@ -10,11 +10,9 @@ comments: false
 
 -----------------------------------------------------------
 
-### EDUCATION
+## EDUCATION
 
 Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quatum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was messy and I dropped out of University twice it was never really due to an inability to keep up with the course. It was more the result of inner discourse and a boredom with the slow and often disappointing, supposed, intellectual stimulation university is known for. *Here is a summary of what my official education has entailed so far:*
-
------------------------------------------------------------ 
 
 **English International College** *2008 - 2010* **A-Levels** *(GPA: A)*: UK High School education in Spain with A-levels in Mathematics & Physiscs. 
 
@@ -23,6 +21,8 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 **King's College London** *2012 - 2015* **BEng Computer Science with Intelligent Systems** *(GPA: 2.1 withdrawn)*: Artificial Intelligence, Robotics, Agents and Multi-Agent Systems, Computer Vision, Pattern Recognition, Signals and systems, ...
 
 -----------------------------------------------------------
+
+## SKILLS
 
 Fortunately i was born in the age of the internet and computers. If there is something you wish to learn about there will be dozens of videos on YouTube showing you how, especially if it involves programming. The last year or so I have been delving into Psychological/Neurological phenomena such as [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients and the [Motor & Sensory Homonculus](https://en.wikipedia.org/wiki/Cortical_homunculus) to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning involving Linear Algebra, Gradient Descent & Derivatives, etc and getting to firm grips with useful programming languages and tools to implement actual solutions. The entire learning process has been part of my [main interest and project in AI](/machine-learning/real-intelligence/). *Below you will find a rough ranking of my Deep Learning relatated skillset:*
 
@@ -63,9 +63,9 @@ Fortunately i was born in the age of the internet and computers. If there is som
 
 -----------------------------------------------------------
 
-Even though I haven't had much professional experience there are some things worth mentioning in relation to a software/machine learning placement.
+## EXPERIENCE
 
------------------------------------------------------------
+Even though I haven't had much professional experience there are some things worth mentioning in relation to a software/machine learning placement.
 
 **Localsoft Games** - *2011 - 2012* - **Video Game Tester**: QA Testing position which allowed me to become familiar with the general Software Testing procedures employed by larger corporations.
 
