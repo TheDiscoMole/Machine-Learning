@@ -39,14 +39,13 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 </table>
 
 <style type="text/css">
-#wrap {
-   margin:0 auto;
-}
 #left_col {
-   float:left;
+  float: left ;
+  width: 50% ;
 }
 #right_col {
-   float:right;
+  float: right;
+  width: 50%;
 }
 </style>
 
