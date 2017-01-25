@@ -38,7 +38,54 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 </tr>
 </table>
 
-**King's College London** *2012 - 2015* **BEng Computer Science with Intelligent Systems** *(Withdrawn)*
+<article id="lyrics">
+    <h1> Wild And Untamed Thing </h1>
+  
+    <h2>Frank:</h2>
+  
+    <p>My my my
+My my my my my
+My my my my
+My my
+I'm a wild and an untamed thing
+I'm a bee with a deadly sting
+You get a hit and your mind goes ping
+Your heart'll pump and your blood will sing
+So let the party and the sounds rock on
+We're gonna shake it 'till the life has gone
+Rose tint my world
+Keep me safe from my trouble and pain</p>
+
+
+    <h2>Chorus:</h2>
+    <p>We're a wild and an untamed thing
+We're a bee with a deadly sting
+You get a hit and your mind goes ping
+Your heart'll pump and your blood will sing
+So let the party and the sounds rock on
+We're gonna shake it 'till the life has gone
+Rose tint my world
+Keep me safe from my trouble and pain</p>
+
+    <p>We're a wild and an untamed thing
+We're a bee with a deadly sting
+You get a hit and your mind goes ping
+Your heart'll pump and your blood will sing
+So let the party and the sounds rock on
+We're gonna shake it 'till the life has gone, gone, gone
+Rose tint my world
+Keep me safe from my trouble and pain</p>
+
+
+    <h2>Riff Raff:</h2> 
+    <p>Frank-N-Furter, it's all over
+Your mission is a failure
+Your lifestyle's too extreme
+I'm your new commander
+You now are my prisoner
+We return to Transylvania
+Prepare the transit beam</p>
+</article>
 
 
 -----------------------------------------------------------
