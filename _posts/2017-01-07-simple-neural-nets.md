@@ -251,7 +251,14 @@ class Synapse:
 
 ------------------------------------------------------------------
 
-Finally we have all the tools we need to combine it all into a `Graph` class with a front facing interface for Neural Network training.
+Finally we have all the tools we need to combine it all into a `Graph` class with a front facing interface for Neural Network training where we would ideally have the following functionality:
+
+* add `Input` layer
+* add `Hidden` layer
+* add `Output` layer
+* add `Synapse` connection between 2 layers
+* compute `Graph` output (feed-forward)
+* `Gradient Descent` (backpropogate)
 
 {% highlight py %}
 # relate input string to relevant activation/loss function
