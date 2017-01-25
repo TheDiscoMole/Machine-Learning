@@ -22,6 +22,10 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 <table>
 <tr>
+    <td><b>English Internation College:</b> 2008 - 2011<br />A-Levels</td>
+    <td>Mathematics: A<br />Further Mathematics: A<br />Pysics: A<br />German: A<br /></td>
+</tr>
+<tr>
     <td><b>Imperial College London:</b> 2011 - 2012<br />MEng Mathematics and Computer Science <i>(withdrawn)</i></td>
     <td>Value 1</td>
 </tr>
