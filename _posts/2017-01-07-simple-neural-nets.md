@@ -28,15 +28,15 @@ class Sigmoid:
     
     __call__ = lambda self,x: 1 / (1 + np.exp(-x))
     
-    def gradient(self,x,g):
+    def gradient(self,x):
         s = self(x)
-        return s * (1 - s) * g
+        return s * (1 - s)
 
 # linear activation function & derivative
 class Linear:
     
     __call__  = lambda self,x: x
-    gradient  = lambda self,x,g: g
+    gradient  = lambda self,x: 1
 {% endhighlight %}
 
 {% highlight py %}
@@ -53,7 +53,7 @@ class MSE:
     gradient = lambda self,y,t: 2 * (y - t)
 {% endhighlight %}
 
-Now we are ready to construct our layers lets make lay down some design choices. An individual neural needs to contain 3 float values for its state:
+Now we are ready to construct our layers lets make lay down some design choices. An individual neuron needs to contain 3 float values for its state:
 
 * bias
 * pre-activation
@@ -61,12 +61,14 @@ Now we are ready to construct our layers lets make lay down some design choices.
 
 Additionally we require 2 bits of functionality from each layer:
 
-* feed-forward propogration; consists of summing the synaptic outputs from the input neurons together with the layer bias and computing the activation function. 
-* gradient descent back propogation; sums the synaptic input gradients from the output neurons, computes the gradient over the activation function and updates the bias.
+* feed-forward propogration; consists of summing the synaptic inputs together with the layer bias and computing the activation elementwise function. 
+* gradient descent back propogation; sums the synaptic output gradients, computes the gradient of the elementwise activation function and updates the bias with gradient descent.
+
+Since we are layering our graph in a complex manner it will occur that in every pass any layer may be called multiple times. So that we don't recalculate layers redundantly and break our gradient descent algorithm by applying gradients more than once, an easy fix will be used through a graph wide and layer local `boolean` state value used to check whether said layer has been `computed`
 
 ------------------------------------------------------------------
 
-If you wish to learn the intricacies of gradient descent, this is a good place to start even though there is a confusing mistake in the last part.
+If you wish to learn the intricacies of gradient descent, this is a good place to start even though there is a confusing mistake in the last part of the explanation.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5u0jaA3qAGk" frameborder="0" allowfullscreen></iframe>
 
@@ -85,8 +87,7 @@ class Hidden:
         self.ns = np.zeros((3,size), dtype=float)
         self.ys = []
         
-        # used to check if layer has been computed in this
-        # complex graph structure
+        # used to check if layer has been computed in pass
         self.computed = False
     
     # overload __call__ operator for feed forward function
@@ -96,7 +97,7 @@ class Hidden:
             ns = self.ns
             
             # sum inputs with bias
-            ns[1] = ns[0] + sum(x(state) for x in self.XS())
+            ns[1] = ns[0] + sum(x(state) for x in self.xs)
             # compute elementwise activation
             ns[2] = self.activation(ns[1])
             
@@ -112,10 +113,10 @@ class Hidden:
             ns = self.ns
             
             # sum output gradients
-            ns[2] = sum(y.gradient(state) for y in self.YS())
+            ns[2] = sum(y.gradient(state) for y in self.ys)
             # compute elementwise activation gradient
-            ns[1] = self.activation.gradient(ns[1],ns[2])
-            # update bias
+            ns[1] = ns[2] * self.activation.gradient(ns[1])
+            # update bias with learning rate = 0.1
             ns[0]-= .1 * ns[1]
             
             self.computed = state
@@ -124,13 +125,14 @@ class Hidden:
         return np.copy(self.ns[1])
 {% endhighlight %}
 
-Next we need a way to connect layers with synaptic links and each synapse needs to have the same functional `forward` and `backward` functions. Thanks to the afore-linked video playlist, finding the derivative of the matrix multiplication happening in `forward` pass is found very easily by matrix multiplying the previous post-activation with the above pre-activated gradient like so:
+Next we need a way to connect layers with synaptic links and each synapse needs to have the same functional `forward` and `backward` functions. Thanks to the afore-linked video playlist we know the realtionship between input and output neurons is linear, which makes for some very neat gradients. The gradients wrt to the input become the output gradients multiplied by the weight matrix transposed, and the gradients wrt to the weights become the matrix multiplication of the input and the output transposed:
 
 {% highlight py %}
 # synapse
 class Synapse:
-    # attach the input & output layer and construct the weight matrix
+    
     def __init__(self, x, y):
+        # attach the input & output layer and construct the weight matrix
         self.x  = x
         self.ws = np.random.uniform(-1,1,(x.size,y.size))
         self.y  = y
@@ -139,15 +141,16 @@ class Synapse:
         x.ys.append(self)
         y.xs.append(self)
     
-    # compute and return synaptic output
+    # overload __call__ for feed forward compute
     def __call__(self, state):
         return np.dot(self.x(state), self.ws)
     
-    # compute and return synaptic gradient after making weight updates
+    # compute synaptic gradient
     def gradient(self, state):
-        # synaptic gradient
+        # input gradients
         result  = np.dot(self.y.gradient(state), np.transpose(self.ws))
-        # synaptic update
+        # weight updates
         self.ws-= np.outer(self.x.ns[2], self.y.gradient(state))
+        # return gradients
         return result
 {% endhighlight %}
