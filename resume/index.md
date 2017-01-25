@@ -12,51 +12,13 @@ comments: false
 
 Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quatum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was messy and I dropped out of University twice it was never really due to an inability to keep up with the course. It was more the result of inner discourse and a boredom with the slow and often disappointing, supposed, intellectual stimulation university is known for. *Here is a summary of what my official education has entailed so far:*
 
------------------------------------------------------------
+----------------------------------------------------------- 
 
-**Sophianum** - *... - 2008*: High School education in the Netherlands with empasis on the sciences.  
+**English International College** *2008 - 2010* **A-Levels** *(GPA: A)*: UK High School education in Spain with A-levels in Mathematics & Physiscs. 
 
-**English International College** - *2008 - 2010*: UK High School education in Spain with A-levels in Mathematics & Physiscs. 
+**Imperial College London** *2011 - 2012* **MEng Mathematics and Computer Science** *(Withdrawn)*: Linear Algebra, Methods, Analysis, Logic, Programming, Achritecture...
 
-**Imperial College London** *2011 - 2012* **MEng Mathematics and Computer Science** *(Withdrawn)*
-
-|  |  |
-| **Imperial College London:** | 2011 - 2012 | MEng Mathematics and Computer Science (withdrawn) | Linear Algebra, Analysis, Methods, Programming, Logic, Architecture... |
-
-<table>
-<tr>
-    <td><b></b> <br /></td>
-    <td></td>
-</tr>
-<tr>
-    <td><b></b> <br /></td>
-    <td></td>
-</tr>
-<tr>
-    <td><b>King's College London:</b> 2012 - 2015<br />BEng Computer Science with Intelligent Systems (GPA: 2.1 withdrawn)</td>
-    <td>Artificial Intelligence, Robotics, Agents and Multi-Agent Systems, Computer Vision, Pattern Recognition, Signals and systems, ...</td>
-</tr>
-</table>
-
-<style type="text/css">
-#left_col {
-  float: left ;
-  width: 45% ;
-}
-#right_col {
-  float: right;
-  width: 45%;
-}
-</style>
-
-<div id="wrap">
-    <div id="left_col">
-        English Internation College <br />2008 - 2010 | A-Levels (GPA: A)
-    </div>
-    <div id="right_col">
-        Mathematics, Further Mathematics, Pysics, German
-    </div>
-</div>
+**King's College London** *2012 - 2015* **BEng Computer Science with Intelligent Systems** *(GPA: 2.1 withdrawn)*: Artificial Intelligence, Robotics, Agents and Multi-Agent Systems, Computer Vision, Pattern Recognition, Signals and systems, ...
 
 -----------------------------------------------------------
 
