@@ -317,4 +317,4 @@ class Graph:
         return cost
 {% endhighlight %}
 
-**NOTE**: This code clearly hasen't been filled with error/consistency checks, so it only works if the user knows how to use the interface correctly (eg. connecting layers in such a way they cause closed loops). Additionally there is no trained model storage or load function, so if you wish to keep your trained progress this would need to be implemented still.
+**NOTE**: This code clearly hasen't been filled with error/consistency checks, so it only works if the user knows how to use the interface correctly (eg. connecting layers in such a way they **DO NOT** cause closed loops). Additionally there is no trained model storage or load function, so if you wish to keep your trained progress this would need to be implemented still.
