@@ -16,7 +16,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 -----------------------------------------------------------
 
-2010: graduated from the **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level)** in:
+2010: [graduated](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM) from the **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level)** in:
 
 * Mathematics
 * Further Mathematics
@@ -41,7 +41,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 * Agents and Multi-Agent Systems
 * Computer Vision
 * Pattern Recognition
-* Signals and systems
+* Signals and Systems
 * ...
 
 -----------------------------------------------------------
@@ -93,6 +93,6 @@ Even though I haven't had much professional experience there are some things wor
 
 -----------------------------------------------------------
 
-**Localsoft Games** - *2011 - 2012* - **Video Game Tester**: QA Testing position which allowed me to become familiar with the general Software Testing procedures employed by larger corporations.
+2011-2012: worked at **[Localsoft Games](http://www.localsoft.com/)** as a **Video Game Tester**. This job entailed various forms of QA testing and allowed me to become familiar with software testing procedures employed by larger coporations.
 
-**Onalytica** - *Summer 2014* - **Data Scientist Intern**: Helped the lead Data Scientist prototype some real time Twitter analytics solutions. *[Reference](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00)*
+summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a **[Data Scientist](https://en.wikipedia.org/wiki/Data_science) Intern** and helped the lead Data Scientist prototype some real time Twitter analytics solutions. *[Reference](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00)*
