@@ -16,15 +16,23 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 -----------------------------------------------------------
 
-| English International College                  | Mathematics, Further Mathematics, Pyssics and German |
-| 2008 - 2010                                    |                                                      |
-| A-Levels                                       |                                                      |
-| GPA: A                                         |                                                      |
-|------------------------------------------------+------------------------------------------------------|
-| Imperial College London                        |                                                      |
-| 2008 - 2010                                    |                                                      |
-| MEng Mathematics and Computer Science          |                                                      |
-| Withdrawn                                      |                                                      |
+| School | Subjects |
+|--------+----------|
+| [English International College](http://eicmarbella.org/) | Mathematics, Further Mathematics, Pysics, Economics and German |
+| 2008 - 2010 | |
+| [A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level) | |
+| [Grades](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM) | |
+|--------+----------|
+| [Imperial College London](https://www.imperial.ac.uk/) | Linear Algebra, Methods, Analysis, Logic, Programming, Achritecture... |
+| 2008 - 2010 | |
+| [MEng Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/) | |
+| *withdrawn* | |
+|--------+----------|
+| [King's College London](http://www.kcl.ac.uk/index.aspx) | Artificial Intelligence, Robotics, Agents and Multi-Agent Systems, Computer Vision, Pattern Recognition, Signals and systems, ... |
+| 2012 - 2015 | |
+| [BEng Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx) | |
+| GPA: 2.1 *withdrawn* | |
+
 
 **English International College** *2008 - 2010* **A-Levels** *(GPA: A)*: Mathematics, Further Mathematics, Pyssics and German 
 
