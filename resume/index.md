@@ -22,6 +22,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 **Imperial College London** *2011 - 2012* **MEng Mathematics and Computer Science** *(Withdrawn)*
 
+table{text-align: left;}.
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
 | cell1   | cell2   | cell3   |
@@ -30,8 +31,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 | cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |
 |=====
-| Foot1   | Foot2   | Foot3
-{ text-align: left; }
+| Foot1   | Foot2   | Foot3   |
 
 **King's College London** *2012 - 2015* **BEng Computer Science with Intelligent Systems** *(Withdrawn)*
 
