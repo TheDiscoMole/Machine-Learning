@@ -61,8 +61,8 @@ Now we are ready to construct our layers lets make some design choices. An indiv
 
 Additionally we require 2 bits of functionality from each layer:
 
-* feed-forward propogration; consists of summing the synaptic inputs together with the layer bias and computing the elementwise activation function. 
-* gradient descent back propogation; sums the synaptic output gradients, computes the gradient of the elementwise activation function and updates the bias with gradient descent.
+* `feed-forward propogration` consists of summing the synaptic inputs together with the layer bias and computing the elementwise activation function. 
+* `gradient descent back propogation` sums the synaptic output gradients, computes the gradient of the elementwise activation function and updates the bias with gradient descent.
 
 Since we are layering our graph in a complex manner it will occur that in every pass any layer may be called multiple times. So that we don't recalculate layers redundantly and break our gradient descent algorithm by applying gradients more than once, an easy fix will be used through a graph wide and layer local `boolean` state value used to check whether said layer has been `computed`
 
