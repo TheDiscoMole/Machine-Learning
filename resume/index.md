@@ -31,7 +31,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 | cell4   | cell5   | cell6   |
 |=====
 | Foot1   | Foot2   | Foot3
-{: rules="align-left"}
+{ text-align: left; }
 
 **King's College London** *2012 - 2015* **BEng Computer Science with Intelligent Systems** *(Withdrawn)*
 
