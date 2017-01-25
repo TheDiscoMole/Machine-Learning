@@ -18,24 +18,15 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 **English International College** - *2008 - 2010*: UK High School education in Spain with A-levels in Mathematics & Physiscs. 
 
------------------------------------------------------------
-
 **Imperial College London** *2011 - 2012* **MEng Mathematics and Computer Science** *(Withdrawn)*
-
-| Header  | Header  | Header  |
-|---------|---------|---------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
 
 <table>
 <tr>
-    <td>Key 1</td>
+    <td><b>Imperial College London:</b> 2011 - 2012<br />MEng Mathematics and Computer Science <i>(withdrawn)</i></td>
     <td>Value 1</td>
 </tr>
 <tr>
-    <td>Key 2</td>
+    <td><b>King's College London:</b> 2012 - 2015<br />BEng Computer Science with Intelligent Systems <i>(withdrawn)</i></td>
     <td>Value 2</td>
 </tr>
 </table>
