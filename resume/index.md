@@ -16,8 +16,18 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 -----------------------------------------------------------
 
-| English International College<br>2008 - 2010<br>A-Levels<br>GPA: A | Mathematics, Further Mathematics, Pyssics and German |
-| Imperial College London<br>2011 - 2012<br>MEng Mathematics and Computer Science<br>*withdrawn* | Linear Algebra, Methods, Analysis, Logic, Programming, Achritecture...<br><br><br> |
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+|=================+============+=================+================|
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|
 
 
 **English International College** *2008 - 2010* **A-Levels** *(GPA: A)*: Mathematics, Further Mathematics, Pyssics and German 
