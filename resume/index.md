@@ -16,19 +16,15 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 -----------------------------------------------------------
 
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
-
+| English International College                  | Mathematics, Further Mathematics, Pyssics and German |
+| 2008 - 2010                                    |                                                      |
+| A-Levels                                       |                                                      |
+| GPA: A                                         |                                                      |
+|------------------------------------------------+------------------------------------------------------|
+| Imperial College London                        |                                                      |
+| 2008 - 2010                                    |                                                      |
+| MEng Mathematics and Computer Science          |                                                      |
+| Withdrawn                                      |                                                      |
 
 **English International College** *2008 - 2010* **A-Levels** *(GPA: A)*: Mathematics, Further Mathematics, Pyssics and German 
 
