@@ -2,14 +2,14 @@
 layout: post
 title:  "Simple Neural Nets"
 date:   2017-01-07
-excerpt: "A simple Neural Network implementation for complex graph stuctures in Python"
+excerpt: "A simple Neural Network implementation for complex graph structures in Python"
 tag:
 - Machine Learning
 - Neural Networks
 comments: false
 ---
 
-Most Simple Neural Network implementations on github (or wherever else) suffer either from convoluted explanations or a rigidly layered configuration. Has the brain, the inspiration for Neural Nets, proven to be so precisely layered? No, networks are complex in structure and that is something NN implementations should embrace. We will be looking at a very simple Python implementation of a complexly layered graph.
+Most Simple Neural Network implementations on github (or wherever else) suffer either from convoluted explanations or a rigidly layered configuration. Has the brain, the inspiration for Neural Nets, proven to be so precisely layered? No, networks are complex in structure and that is something NN implementations should embrace. We will be looking at a very simple Python code of a complexly layered graph.
 
 ------------------------------------------------------------------
 
@@ -18,7 +18,7 @@ Most Simple Neural Network implementations on github (or wherever else) suffer e
 * `names` which will be used to identify the layers for things like connecting them with Synapses
 * `sizes` which define how many neurons are present in each layer
 * `activation functions` to apply to the neurons
-* `loss functions` in the case of the output layer which will help propogate gradients against target data
+* `loss functions` in the case of the output layer, which will help propogate gradients against target data
 
 lets first do the simple stuff, `activation` & `loss functions` and their respective `derivatives`:
 
@@ -55,7 +55,7 @@ class MSE:
 
 ------------------------------------------------------------------
 
-Now that we are ready to construct our layers lets make some design choices. An individual neuron needs to contain 3 float values for its state:
+Now that we are ready to construct our layers lets make some design choices. An individual neuron needs to contain 3 `float` values for its state:
 
 * bias
 * pre-activation
@@ -63,14 +63,14 @@ Now that we are ready to construct our layers lets make some design choices. An 
 
 Additionally we require 2 bits of functionality from each layer:
 
-* `feed-forward propogration` consisting of summing the synaptic inputs together with the layer bias and computing the elementwise activation function. 
-* `gradient descent back propogation` sums the synaptic output gradients, computes the gradient of the elementwise activation function and updates the bias through gradient descent.
+* `feed-forward propogration` consists of summing the synaptic inputs together with the layer bias and computing the elementwise activation function. 
+* `gradient descent back propogation` sums the synaptic output gradients, computes the gradient of the elementwise activation function and updates the bias through Gradient Descent.
 
-Since we are layering our graph in a complex manner it will occur that in every pass any layer may be called multiple times. So that we don't recalculate layers redundantly and break our gradient descent algorithm by applying gradients more than once, an easy fix will be used through a graph wide and layer local `boolean` state value used to check whether said layer has been `computed` before in the current pass.
+Since we are layering our graph in a complex manner it will occur that in every pass any layer may be called multiple times. So that we don't recalculate layers redundantly and break our Gradient Descent algorithm by applying gradients more than once, an easy fix will be used through a graph wide and layer local `boolean` state value used to check whether said layer has been `computed` before in the current pass.
 
 ------------------------------------------------------------------
 
-If you wish to learn the intricacies of gradient descent, this is a good place to start even though there is a small confusing mistake in the last video of the playlist on gradient descent.
+If you wish to learn the intricacies of Gradient Descent, this is a good place, to start even though there is a small confusing mistake in the last video of the playlist on Gradient Descent.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5u0jaA3qAGk" frameborder="0" allowfullscreen></iframe>
 
@@ -220,7 +220,7 @@ class Output:
 
 ------------------------------------------------------------------
 
-Next we need a way to connect layers with synaptic links and each `Synapse` needs to have the same `forward` and `backward` functions. Thanks to the afore-linked video playlist we know the realtionship between input and output neurons is linear, which makes for some very neat gradients. We will need to deal with 2 gradient calculations, one to propogate gradients further down the net and the other to update the synaptic wieghts. The gradients wrt to the input become the output gradients multiplied by the weight matrix transposed, and the gradients wrt to the weights become the matrix multiplication of the input and the output transposed:
+Next we need a way to connect layers with synaptic links and each `Synapse` needs to have the same `forward` and `backward` functions. Thanks to the afore-linked playlist we know the relationship between input and output neurons is linear, which makes for some very neat gradients. We will need to deal with 2 gradient calculations, one to propogate gradients further down the net and the other to update the synaptic weights. The gradients wrt to the input become the output gradients multiplied by the weight matrix transposed, and the gradients wrt to the weights become the matrix multiplication of the input transposed and the output gradients:
 
 {% highlight py %}
 class Synapse:
@@ -251,7 +251,7 @@ class Synapse:
 
 ------------------------------------------------------------------
 
-Finally we have all the tools we need to combine it all into a `Graph` class with a front facing interface for Neural Network training where we would ideally have the following functionality:
+Finally we have all the tools we need to combine it all into a `Graph` class with a front facing interface for Neural Network training, where we would ideally have the following functionality:
 
 * add `Input` layer
 * add `Hidden` layer
@@ -317,4 +317,4 @@ class Graph:
         return cost
 {% endhighlight %}
 
-**NOTE**: This code clearly hasen't been filled with error/consistency checks, so it only works if the user knows how to use the interface correctly (eg. connecting layers in such a way they **DO NOT** cause closed loops). Additionally there is no trained model storage or load function, so if you wish to keep your trained progress this would need to be implemented still.
+**NOTE**: This code clearly hasn't been filled with error/consistency checks, so it only works, if the user knows how to use the interface correctly (eg. connecting layers in such a way they **DO NOT** cause closed loops). Additionally there is no trained model storage or load function, so if you wish to keep your trained progress, this would need to be implemented still.
