@@ -72,7 +72,15 @@ Since we are layering our graph in a complex manner it will occur that in every 
 
 If you wish to learn the intricacies of Gradient Descent, this is a good place, to start even though there is a small confusing mistake in the last video of the playlist on Gradient Descent.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5u0jaA3qAGk" frameborder="0" allowfullscreen></iframe>
+<center>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/5u0jaA3qAGk" 
+        frameborder="0" 
+        allowfullscreen>
+    </iframe>
+</center>
 
 ------------------------------------------------------------------
 
