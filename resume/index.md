@@ -98,7 +98,7 @@ Even though I haven't had much professional experience there are some things wor
 * Localisation Testing
 * QA Software Testing
 
-summer 2014: [worked](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00) at **[Onalytica](http://www.onalytica.com/)** as a **[Data Scientist](https://en.wikipedia.org/wiki/Data_science) Intern**, this job entailed:
+Summer 2014: [worked](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00) at **[Onalytica](http://www.onalytica.com/)** as a **[Data Scientist](https://en.wikipedia.org/wiki/Data_science) Intern**, this job entailed:
 
 * Real-Time Datastreams
 * Network Analysis
