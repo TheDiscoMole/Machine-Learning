@@ -12,7 +12,7 @@ comments: false
 
 ## SKILLS
 
-The last year or so I have been delving into Psychological & Neurological phenomena such as [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients and the [Motor & Sensory Homunculus](https://en.wikipedia.org/wiki/Cortical_homunculus) to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning like Linear Algebra, Gradient Descent & Derivatives, etc and getting to firm grips with useful programming languages and tools to implement actual solutions. The entire learning process has been part of my [main interest and project in AI]({{site-url}}/real-intelligence/). *Below you will find a rough ranking of my Deep Learning relatated skillset:*
+The last year or so I have been delving into Psychological & Neurological phenomena such as [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients and the [Motor & Sensory Homunculus](https://en.wikipedia.org/wiki/Cortical_homunculus) to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning like Linear Algebra, Gradient Descent & Derivatives, etc and getting to firm grips with useful programming languages and tools to implement actual solutions. The entire learning process has been part of my [main interest and project in AI]({{site-url}}/real-intelligence/). *Below you will find a rough ranking of my Deep Learning related skillset:*
 
 -----------------------------------------------------------
 
@@ -53,7 +53,7 @@ The last year or so I have been delving into Psychological & Neurological phenom
 
 ## EDUCATION
 
-Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quatum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was messy and I dropped out of University twice, it was never really due to an inability to keep up with the course. It was more the result of inner discourse and a boredom with the slow and often disappointing, supposed, intellectual stimulation university is known for. *Here is a summary of what my official education has entailed so far:*
+Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quantum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was messy and I dropped out of University twice, it wasn't really due to an inability to keep up with the course, but rather the result of inner discourse and dissatisfaction with the education I recieved. *Here is a summary of what my official education has entailed so far:*
 
 -----------------------------------------------------------
 
@@ -89,7 +89,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 ## EXPERIENCE
 
-Even though I haven't had much professional experience there are some things worth mentioning in relation to a protential software/machine learning placement.
+Even though I haven't had much professional experience there are some things worth mentioning in relation to a potential software/machine learning placement.
 
 -----------------------------------------------------------
 
