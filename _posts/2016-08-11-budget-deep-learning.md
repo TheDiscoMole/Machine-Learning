@@ -10,7 +10,7 @@ tag:
 comments: false
 ---
 
-A few months ago I build a budget Deep Learning only machine and had trouble finding many good recources online, so here is a list for anyone who is dealing with a similar situation. The machine costs less than $700 with 6GB of device memory and one of the fastest CUDA chips of the current generation. If you are looking to understand the hardware constraints more percisely, such as the recommended PCIe capabilities I was unaware of, *[this tutorial](http://timdettmers.com/2015/03/09/deep-learning-hardware-guide/)* is an amazing place to start. But if you are just looking for a well functioning build to roughly copy, here it is: (all links to products are through partpicker to ensure compatibility)
+A few months ago I built a budget Deep Learning-only Machine and had trouble finding good resources online, so here is a list for anyone, who is dealing with a similar situation. The machine costs less than $700 with 6GB of device memory and one of the fastest CUDA chips of the current generation. If you are looking to understand the hardware constraints more precisely, such as the recommended PCIe capabilities I was unaware of, *[this tutorial](http://timdettmers.com/2015/03/09/deep-learning-hardware-guide/)* is an amazing place to start. But if you are just looking for a functioning build to roughly copy, here it is: (all links to products are through partpicker to ensure compatibility)
 
 ---------------------------------------------------------------
 
@@ -103,7 +103,7 @@ A few months ago I build a budget Deep Learning only machine and had trouble fin
 
 ---------------------------------------------------------------
 
-* use a Linux distro as your OS (like Arch-Linux) cause it makes the use deep learning tools, libraries and drivers so much easier
-* unless you are planning to overclock (which is pointless for deep learning, you dont need anything other than factory coolers)
-* a better CPU and Motherboard might make sense if you are able to spare the coin and plan to upgrade over time with dual GPU.
-* thanks to the low power consumption craze, power supplies can be bought at even lower Watt-age and price.
+* use a Linux distro as your OS (like Arch-Linux), cause it makes the use of Deep Learning tools, libraries and drivers so much easier
+* unless you are planning to overclock (which is pointless for Deep Learning) you dont need anything other than factory coolers
+* a better CPU and Motherboard might make sense if you are able to spare the coin and plan to upgrade over time with dual GPU
+* thanks to the low power consumption craze, power supplies can be bought at even lower Watt-age and price
