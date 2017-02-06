@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center> This contains the summized history of my modest Machine Learning skillset. </center>
+<center> This contains the summarized history of my modestly ordinary Machine Learning skillset. </center>
 
 -----------------------------------------------------------
 
