@@ -9,13 +9,13 @@ tag:
 comments: false
 ---
 
-I was interested in applying some Computer Vision techniques and play around with twitch streams. As Twitch chat is a big part of the experience, and especially the emotes are a very visual component, this code allows you to render streams on `low` quality at 30 fps and do the same for twitch chat. Due to latency concerns the irc data stream worker will download and keep an up to date database of Twitch emotes and badges (BTTV emotes too). Currently this database only downloads channel emotes when you watch said channel as emotes from other channels are used "relatively" rarely in streams compared to stream emotes and globals.
+I was interested in applying some Computer Vision techniques and play around with Twitch streams. As Twitch chat is a big part of the experience, and especially the emotes are a very visual component, this code allows you to render streams in `low` quality at 30 fps and do the same for chat. Due to latency concerns the irc data stream worker will download and keep an up to date database of Twitch emotes and badges (BTTV emotes too). Currently this database only downloads channel emotes when you ingest said stream as emotes from other channels are used "relatively" rarely in streams compared to its subscriber emotes and globals.
 
 ------------------------------------------------------------------
 
 The API is really simple...
 
-*render everythin*
+*render everything*
 
 {% highlight py %}
 from twitchrender import Renderer
@@ -45,11 +45,11 @@ This is the renderer object used to mantain data stream workers.
 
 **args:**
 
-* *channel:* the channel whose stream you wich to render
-* *video:* `bool` which decides whether to render the streams video frames (default=`True`)
-* *audio:* `bool` which decides whether to render the streams audio frames (default=`True`)
-* *chat:* `bool` which decides whether to render the streams chat frames (default=`True`)
-* *flush:* this `bool` can be used to tell the renderer to only fetch to most recent frames so if your calls to `__iter__` generator happen less frequently than 30 times per second you an drop missed frames to ingest real time data. Otherwise the frame buffer will grow depending on that speed. (Default=`True`)
+* *channel:* the channel whose stream you wish to render
+* *video:* `bool` which decides whether to render the stream's video frames (default=`True`)
+* *audio:* `bool` which decides whether to render the stream's audio frames (default=`True`)
+* *chat:* `bool` which decides whether to render the stream's chat frames (default=`True`)
+* *flush:* this `bool` can be used to tell the renderer to only fetch to most recent frames, so if your calls to the `__iter__` generator happen less frequently than 30 times per second, you can drop missed frames to ingest real time data. Otherwise the frame buffer will grow depending on that speed. (Default=`True`)
 
 `Renderer.__iter__(self)`
 
