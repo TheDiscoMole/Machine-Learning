@@ -49,11 +49,10 @@ This is the renderer object used to mantain data stream workers.
 * *video:* `bool` which decides whether to render the stream's video frames (default=`True`)
 * *audio:* `bool` which decides whether to render the stream's audio frames (default=`True`)
 * *chat:* `bool` which decides whether to render the stream's chat frames (default=`True`)
-* *flush:* this `bool` can be used to tell the renderer to only fetch to most recent frames, so if your calls to the `__iter__` generator happen less frequently than 30 times per second, you can drop missed frames to ingest real time data. Otherwise the frame buffer will grow depending on that speed. (Default=`True`)
 
 `Renderer.__iter__(self)`
 
-This is the iterator used to `yield` data stream frames.
+This is the iterator used to `yield` data stream frames. The data-stream sockets are flushed at each iteration, so at most this iterator will return results at 30 fps, but if this iterator is called less frequently only the most recent frame will be returned.
 
 **returns**
 
