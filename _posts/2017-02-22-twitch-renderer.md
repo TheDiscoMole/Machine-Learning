@@ -66,9 +66,9 @@ This is the iterator used to `yield` data-stream frames. The data-stream sockets
 
 **returns**
 
-* (360,640,3) video frame numpy array if `video` argument at `Renderer` intitialisation was set to `True`
-* (44100/30,2) audio frame numpy array if `audio` argument at `Renderer` intitialisation was set to `True`
-* (360,100,3) chat frame numpy array if `chat` argument at `Renderer` intitialisation was set to `True`
+* (360,640,3) video frame if `video` argument during `__init__` was set to `True`
+* (44100/30,2) audio frame if `audio` argument during `__init__` was set to `True`
+* (360,100,3) chat frame if `chat` argument during `__init__` was set to `True`
 
 ------------------------------------------------------------------
 
