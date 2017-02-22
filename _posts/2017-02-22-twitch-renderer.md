@@ -41,7 +41,7 @@ Each `Renderer` instance can fetch 1 stream frame by frame. All you have to do i
 
 `Renderer.__init__(self, channel, video=True, audio=True, chat=True, flush=True)`
 
-This is the renderer object used to mantain data stream workers.
+This is the renderer object used to mantain data-stream workers.
 
 **args:**
 
@@ -52,7 +52,7 @@ This is the renderer object used to mantain data stream workers.
 
 `Renderer.__iter__(self)`
 
-This is the iterator used to `yield` data stream frames. The data-stream sockets are flushed at each iteration, so at most this iterator will return results at 30 fps, but if this iterator is called less frequently only the most recent frame will be returned.
+This is the iterator used to `yield` data-stream frames. The data-stream sockets are flushed at each iteration, so at most this iterator will return results at 30 fps, but if this iterator is called less frequently only the most recent frame will be returned.
 
 **returns**
 
