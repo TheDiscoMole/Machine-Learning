@@ -2,7 +2,7 @@
 layout: post
 title:  "Twitch Renderer"
 date:   2017-01-07
-excerpt: "Renders Twitch Streams and Chat as videos frame by frame in numpy"
+excerpt: "Renders Twitch Streams and Chat as videos frame by frame in Numpy"
 tag:
 - Twitch
 - Computer Vision
@@ -59,3 +59,7 @@ This is the iterator used to `yield` data-stream frames. The data-stream sockets
 * (360,640,3) video frame numpy array if `video` argument at `Renderer` intitialisation was set to `True`
 * (44100/30,2) audio frame numpy array if `audio` argument at `Renderer` intitialisation was set to `True`
 * (360,100,3) chat frame numpy array if `chat` argument at `Renderer` intitialisation was set to `True`
+
+------------------------------------------------------------------
+
+*NOTE: this is reliant on unsupported API calls and could break any time 4Head*
