@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "twitch renderer"
+title:  "Twitch Renderer"
 date:   2017-01-07
 excerpt: "Renders Twitch Streams and Chat as videos frame by frame in numpy"
 tag:
