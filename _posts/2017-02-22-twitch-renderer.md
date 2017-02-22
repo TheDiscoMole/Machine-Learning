@@ -13,6 +13,14 @@ I was interested in applying some Computer Vision techniques and play around wit
 
 ------------------------------------------------------------------
 
+Dependencies:
+
+* [numpy](http://www.scipy.org/scipylib/download.html)
+* [zmq](http://zeromq.org/bindings:python)
+* [ffmepg](https://ffmpeg.org/download.html)
+
+------------------------------------------------------------------
+
 The API is really simple...
 
 *render everything*
@@ -49,6 +57,8 @@ This is the renderer object used to mantain data-stream workers.
 * *video:* `bool` which decides whether to render the stream's video frames (default=`True`)
 * *audio:* `bool` which decides whether to render the stream's audio frames (default=`True`)
 * *chat:* `bool` which decides whether to render the stream's chat frames (default=`True`)
+
+------------------------------------------------------------------
 
 `Renderer.__iter__(self)`
 
