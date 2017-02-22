@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Twitch Renderer"
+title:  "twitch renderer"
 date:   2017-01-07
 excerpt: "Renders Twitch Streams and Chat as videos frame by frame in numpy"
 tag:
@@ -15,11 +15,23 @@ I was interested in applying some Computer Vision techniques and play around wit
 
 The API is really simple...
 
+*render everythin*
+
 {% highlight py %}
 from twitchrender import Renderer
 
 stream = Renderer('LIRIK')
 for video, audio, chat in stream:
+    # do stuff with frames
+{% endhighlight %}
+
+*render video and chat only*
+
+{% highlight py %}
+from twitchrender import Renderer
+
+stream = Renderer('LIRIK', audio=False)
+for video, chat in stream:
     # do stuff with frames
 {% endhighlight %}
 
@@ -41,7 +53,7 @@ This is the renderer object used to mantain data stream workers.
 
 `Renderer.__iter__(self)`
 
-This is the iterator used to `yield` data stream frames
+This is the iterator used to `yield` data stream frames.
 
 **returns**
 
