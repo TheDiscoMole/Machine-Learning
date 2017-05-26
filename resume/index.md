@@ -54,7 +54,7 @@ The last year or so I have been delving into Psychological & Neurological phenom
 
 ## EDUCATION
 
-Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quantum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was a little messy over the years and I dropped out of University twice, it wasn't really due to an inability to keep up with the course. *Here is a summary of what my official education has entailed so far:*
+Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quantum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was a little messy over the years and I dropped out of University twice, it was never due to an inability to keep up with the course. *Here is a summary of what my official education has entailed so far:*
 
 -----------------------------------------------------------
 
