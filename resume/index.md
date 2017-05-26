@@ -16,15 +16,16 @@ The last year or so I have been delving into Psychological & Neurological phenom
 
 -----------------------------------------------------------
 
-| Languages | /5  |
-|:----------|----:|
-| Python    | 5   |
-| C++       | 4   |
-| LUA       | 4   |
-| Java      | 3   |
-| Scala     | 3   |
-| NodeJS    | 2   |
-| Bash      | 2   |
+| Languages  | /5  |
+|:-----------|----:|
+| Python     | 5   |
+| C++        | 4   |
+| LUA        | 4   |
+| Javascript | 3   |
+| Java       | 3   |
+| Scala      | 3   |
+| HTML/CSS   | 3   |
+| Bash       | 2   |
 
 -----------------------------------------------------------
 
@@ -36,7 +37,7 @@ The last year or so I have been delving into Psychological & Neurological phenom
 | MapReduce ([AWS](https://aws.amazon.com/)/[Spark](http://spark.apache.org/))   | 3  |
 | Cloud ([AWS](https://aws.amazon.com/))   | 3  |
 | SQL/NoSQL ([AWS](https://aws.amazon.com/)/[MongoDB](https://www.mongodb.com/))   | 3  | 
-| Distribution ([ZMQ](http://zeromq.org/))   | 2  |
+| Networking ([ZMQ](http://zeromq.org/))   | 2  |
 
 -----------------------------------------------------------
 
@@ -53,7 +54,7 @@ The last year or so I have been delving into Psychological & Neurological phenom
 
 ## EDUCATION
 
-Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quantum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was messy and I dropped out of University twice, it wasn't really due to an inability to keep up with the course, but rather the result of inner discourse and dissatisfaction with the education I recieved. *Here is a summary of what my official education has entailed so far:*
+Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quantum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was a little messy over the years and I dropped out of University twice, it wasn't really due to an inability to keep up with the course. *Here is a summary of what my official education has entailed so far:*
 
 -----------------------------------------------------------
 
@@ -89,7 +90,7 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 ## EXPERIENCE
 
-Even though I haven't had much professional experience there are some things worth mentioning in relation to a potential software/machine learning placement.
+Here are some software development/machine learning related placements.
 
 -----------------------------------------------------------
 
