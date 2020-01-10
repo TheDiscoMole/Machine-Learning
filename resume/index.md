@@ -6,21 +6,22 @@ date: 2016-03-21
 comments: false
 ---
     
-<center> This contains the summarized history of my modestly ordinary Machine Learning skillset. </center>
+<center> A short description of my Machine Learning skillset. </center>
+
+-----------------------------------------------------------
+
+Approximately 7-8 years I discovered Theano and Machine Learning, and specifically theoretical Deep Learning has been one of my interests ever since. My skillset is self-taught through projects, YouTube, Wiki artictles and, in early years, have found especially [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients, the basics of [Group Theory](https://en.wikipedia.org/wiki/Group_theory) and [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU) useful to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning like Linear Algebra, Gradient Descent & Derivatives, etc and getting to grips with useful programming languages and tools to implement actual solutions. The learning process in more recent years has mainly consisted of reading blog-posts of various prejects from [Deepmind](https://magenta.tensorflow.org/gansynth) and [OpenAI](http://gym.openai.com/) and delving into the source code for those projects and pyTorch itself. All of this has been predominantly guided by my main [AI project]({{site.url}}/real-intelligence/).
 
 -----------------------------------------------------------
 
 ## SKILLS
-
-The last year or so I have been delving into Psychological & Neurological phenomena such as [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients and the [Motor & Sensory Homunculus](https://en.wikipedia.org/wiki/Cortical_homunculus) to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning like Linear Algebra, Gradient Descent & Derivatives, etc and getting to firm grips with useful programming languages and tools to implement actual solutions. The entire learning process has been part of my [main interest and project in AI]({{site.url}}/real-intelligence/). *Below you will find a rough ranking of my skillset:*
-
------------------------------------------------------------
+*contain a rough skillset summary rated out of 5 to highlight where im comfortable*
 
 | Languages  | /5  |
 |:-----------|----:|
 | Python     | 5   |
 | C++        | 4   |
-| LUA        | 4   |
+| LUA        | 3   |
 | Javascript | 3   |
 | Java       | 3   |
 | Scala      | 3   |
@@ -31,12 +32,12 @@ The last year or so I have been delving into Psychological & Neurological phenom
 
 | Libs/Tools/... | /5 |
 |:--------------------------------------------|---:|
-| Symbolic Computing ([Theano](http://deeplearning.net/software/theano/)/[Tensorflow](https://www.tensorflow.org/)/[Torch](http://torch.ch/))  | 4  |
-| GPU ([CUDA](http://www.nvidia.com/object/cuda_home_new.html))  | 4  |
-| Machine Learning ([Keras](http://keras.io/)/[Caffe](http://caffe.berkeleyvision.org/))  | 3  |
-| MapReduce ([AWS](https://aws.amazon.com/)/[Spark](http://spark.apache.org/))   | 3  |
+| Deep Learning ([pyTorch](https://pytorch.org/)/[Theano](http://deeplearning.net/software/theano/)/[Tensorflow](https://www.tensorflow.org/)/[Torch](http://torch.ch/))  | 5  |
+| Machine Learning ([Keras](http://keras.io/)/[Caffe](http://caffe.berkeleyvision.org/))  | 4  |
+| GPU ([CUDA](https://docs.nvidia.com/cuda/)  | 4  |
+| MapReduce ([AWS Lambda](https://aws.amazon.com/)/[Spark](http://spark.apache.org/))   | 3  |
 | Cloud ([AWS](https://aws.amazon.com/))   | 3  |
-| SQL/NoSQL ([AWS](https://aws.amazon.com/)/[MongoDB](https://www.mongodb.com/))   | 3  | 
+| SQL/NoSQL ([AWS Storage](https://aws.amazon.com/)/[MongoDB](https://www.mongodb.com/))   | 3  | 
 | Networking ([ZMQ](http://zeromq.org/))   | 2  |
 
 -----------------------------------------------------------
@@ -52,42 +53,6 @@ The last year or so I have been delving into Psychological & Neurological phenom
 
 -----------------------------------------------------------
 
-## EDUCATION
-
-Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quantum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was a little messy over the years and I dropped out of University twice, it was never due to an inability to keep up with the course. *Here is a summary of what my official education has entailed so far:*
-
------------------------------------------------------------
-
-2010: [graduated](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM) from the **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level)** in:
-
-* Mathematics
-* Further Mathematics
-* Physics
-* Economics
-* German
-
-2012: withdrew from **[Imperial College London](https://www.imperial.ac.uk/)** studying **[MEng Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**, some courses entailed:
-
-* Linear Algebra
-* Methods
-* Analysis
-* Logic
-* Programming
-* ...
-
-2015: withdrew from **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[BEng Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**, some courses entailed:
-
-* Artificial Intelligence
-* Robotics
-* Control Systems
-* Agents and Multi-Agent Systems
-* Computer Vision
-* Pattern Recognition
-* Signals and Systems
-* ...
-
------------------------------------------------------------
-
 ## EXPERIENCE
 
 Here are some software development/machine learning related placements.
@@ -99,8 +64,30 @@ Here are some software development/machine learning related placements.
 * Localisation Testing
 * QA Software Testing
 
-Summer 2014: [worked](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00) at **[Onalytica](http://www.onalytica.com/)** as a **[Data Scientist](https://en.wikipedia.org/wiki/Data_science) Intern**, this job entailed:
+Summer 2014: [worked](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00) at **[Onalytica](http://www.onalytica.com/)** as a Data Scientist Intern, this job entailed:
 
 * Real-Time Datastreams
 * Network Analysis
 * Cloud Computing
+
+September 2017 - September 2019: [IMA Intitut RWTH Aachen](https://cybernetics-lab.de/) as Deep Learning Intern/Assistant, this job entailed:
+
+* NLP
+* Computer Vision
+* High Performance Computing
+
+-----------------------------------------------------------
+
+## EDUCATION
+
+Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quantum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was a little messy over the years and I dropped out of University twice, it was never due to an inability to keep up with the course.
+
+-----------------------------------------------------------
+
+- 2010: **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM)** in Mathematics, Further Mathematics, Physics, Economics, German
+
+2011 - 2012: **[Imperial College London](https://www.imperial.ac.uk/)** studying **[MEng Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**
+
+2013 - 2015: **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[BEng Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**
+
+2017 - : **[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1)** studying **[BEng Informatik](https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bnzs/Informatik-B-Sc-/)**
