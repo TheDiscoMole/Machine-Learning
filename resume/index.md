@@ -10,12 +10,12 @@ comments: false
 
 -----------------------------------------------------------
 
-Approximately 7-8 years I discovered Theano and Machine Learning, and specifically theoretical Deep Learning has been one of my interests ever since. My skillset is self-taught through projects, YouTube, Wiki artictles and, in early years, have found especially [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients, the basics of [Group Theory](https://en.wikipedia.org/wiki/Group_theory) and [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU) useful to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning like Linear Algebra, Gradient Descent & Derivatives, etc and getting to grips with useful programming languages and tools to implement actual solutions. The learning process in more recent years has mainly consisted of reading blog-posts of various prejects from [Deepmind](https://magenta.tensorflow.org/gansynth) and [OpenAI](http://gym.openai.com/) and delving into the source code for those projects and pyTorch itself. All of this has been predominantly guided by my main [AI project]({{site.url}}/real-intelligence/).
+Approximately 7-8 years I discovered Theano and Machine Learning, and specifically theoretical Deep Learning has been one of my interests ever since. My skillset is self-taught through projects, YouTube, Wiki articles and, in early years, have found especially [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients, the basics of [Group Theory](https://en.wikipedia.org/wiki/Group_theory) and [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU) useful to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning like Linear Algebra, Gradient Descent & Derivatives, etc and getting to grips with useful programming languages and tools to implement actual solutions. The learning process in more recent years has mainly consisted of reading blog-posts of various projects from [Deepmind](https://magenta.tensorflow.org/gansynth) and [OpenAI](http://gym.openai.com/) and delving into the source code for those projects and pyTorch itself. All of this has been predominantly guided by my main [AI project]({{site.url}}/real-intelligence/).
 
 -----------------------------------------------------------
 
 ## SKILLS
-*contain a rough skillset summary rated out of 5 to highlight where im comfortable (everythhing in brackets are just examples on not fully retain everythin, check out my projects to get a better clue at my skillset)*
+*contain a rough skillset summary rated out of 5 to highlight where im comfortable (everything in brackets is just examples and doesn't fully retain everything I have worked with, check out my project portfolio to get a better clue at my skillset)*
 
 | Languages  | /5  |
 |:-----------|----:|
@@ -55,7 +55,7 @@ Approximately 7-8 years I discovered Theano and Machine Learning, and specifical
 
 ## EXPERIENCE
 
-Here are some software development/machine learning related placements.
+Here you will only find ML & Software related placements as my waiting skills are presumably not of note.
 
 -----------------------------------------------------------
 
