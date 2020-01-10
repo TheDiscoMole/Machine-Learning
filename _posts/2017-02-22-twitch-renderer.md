@@ -12,7 +12,10 @@ tag:
 comments: false
 ---
 
-[Project Link](https://github.com/TheDiscoMole/twitch-renderer)
+
+<center> [github](https://github.com/TheDiscoMole/twitch-renderer) </center>
+
+------------------------------------------------------------------
 
 I was interested in applying some Computer Vision techniques and playing around with Twitch streams. As Twitch chat is a big part of the experience, and especially the emotes are a very visual component, this code allows you to render streams in `low` quality at 30 fps and do the same for chat (instead of video capturing your browser). Due to latency concerns the irc data stream worker will download and keep an up to date database of Twitch emotes and badges (BTTV emotes too). Currently this database only downloads channel emotes when you ingest said stream as emotes from other channels are used "relatively" rarely in streams compared to its subscriber emotes and globals.
 
