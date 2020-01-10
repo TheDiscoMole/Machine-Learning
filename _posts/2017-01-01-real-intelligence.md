@@ -13,14 +13,11 @@ tag:
 comments: false
 ---
 
-I am working on what I perceive Neural Networks are supposed to look like. Here is a little run down:
+I presonally think there is still much to be done about the core functionality behind Neural Networks and there a several impactful differences between computional and artificial. This is a long standing project and interest that comes in waves and I work on it on and off depending inspiration and desire.
 
-* **Neurogenesis** & **Synaptogenesis**: Finishing Stages. My Neural Networks can grow, shrink, rewire themselves and update synaptic weights in one *relatively* clean parallel algorithm. Currently I am working on a scalable CUDA implementation that can learn from real data-streams.
+* **Neurogenesis** & **Synaptogenesis**: Probably the largest glaring hole in networks these days compared to the brain is their rigid sctructure and inability to truly change. I have developed a mechanism that allows an individual net to grow and prune neurons and synapses in approximataly the right places. This algorithm is highly parallelisable and integrates "seemlessly" with gradient descent. This is currently in development stages as it requires a complete rewriting of core pyTorch-like functionality in CUDA with a custom GPU memory allocator.
 
-* **Unsupervised Learning**: Prototyping stages. Training data will be completely optional as parts of the Neural Net will be acle to learn purely from input data. This currently works, but is not really at implementation stage for scalable code yet. It requires restructuring the current design paradigm for my afore-mentioned Neural Net quite a bit. 
+* **Unsupervised Learning**: I don't really like this term because unsupervised learning doesn't exist, but if we look at human capability to optimize behaviour without much incentive it becomes obvious that some form of unsupervised learning exists. By supervised I mean things such as pain and clearly emotion/hormone/etc driven incentives to change behaviour. These mechanisms don't quite explain the brains tendency to optimize smaller things very well. For example our ability to gradually become more able to walk through our own home in the dark. I think this passive learning stems largely from 2 hemispheres and [corpus callosum
+](https://en.wikipedia.org/wiki/Corpus_callosum) which causes the hemispheres to have, at least partially, an autoencoder functionality. 
 
-* **Fractalisation**: Concept stages. Using inheritance, the network objects will ideally become completely self similar and allow for growing, pruning and rewiring of entirely interconnected sub-graphs. Thus, higher level learning.
-
-* **Distributability** Concept stages. By implementing several communication interfaces for neurons/graphs (eg. DMA & ZMQ), a network should be able to be hosted over different configurations of hardware at all times.
-
-*This is a long standing project as i repeatedly go on months long hiatuses and work on it as my interest comes and goes.*
+* **Fractalisation**: Our brains are inherently highly self-similar and while this is also true for Neural Networks currently, it isn't sufficiently so. For me an ideal graph would not just grow and prune neurons and synapses, but entire graphs and sub-graps, given the network the ability to grow in and outwards. This is highly theorical and I haven't even botherd complicating my first bulletpoint by trying to implement it, but it is on the list.
