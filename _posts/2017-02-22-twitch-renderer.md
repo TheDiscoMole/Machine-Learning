@@ -1,11 +1,14 @@
 ---
 layout: post
 title:  "Twitch Renderer"
-date:   2017-02-22
-excerpt: "Renders Twitch Streams and Chat as videos frame by frame in Numpy"
+date:   2017-01-01
+excerpt: "TWitch Stream & Chat renderer for AI"
+project: true
 tag:
-- Twitch
+- Artificial Intelligence 
+- NLP
 - Computer Vision
+- Twitch
 comments: false
 ---
 
