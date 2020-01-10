@@ -2,7 +2,7 @@
 layout: post
 title:  "Twitch Renderer"
 date:   2017-01-01
-excerpt: "TWitch Stream & Chat renderer for AI"
+excerpt: "Twitch Stream & Chat renderer for AI"
 project: true
 tag:
 - Artificial Intelligence 
