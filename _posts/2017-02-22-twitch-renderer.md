@@ -13,7 +13,7 @@ comments: false
 ---
 
 
-<center> [github](https://github.com/TheDiscoMole/twitch-renderer) </center>
+[<center> github </center>](https://github.com/TheDiscoMole/twitch-renderer)
 
 ------------------------------------------------------------------
 
