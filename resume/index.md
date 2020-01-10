@@ -15,7 +15,7 @@ Approximately 7-8 years I discovered Theano and Machine Learning, and specifical
 -----------------------------------------------------------
 
 ## SKILLS
-*contain a rough skillset summary rated out of 5 to highlight where im comfortable*
+*contain a rough skillset summary rated out of 5 to highlight where im comfortable (everythhing in brackets are just examples on not fully retain everythin, check out my projects to get a better clue at my skillset)*
 
 | Languages  | /5  |
 |:-----------|----:|
@@ -45,7 +45,7 @@ Approximately 7-8 years I discovered Theano and Machine Learning, and specifical
 | ML Techniques | /5  |
 |:----------|----:|
 | Neural Networks ([ANN](https://en.wikipedia.org/wiki/Artificial_neural_network)/[DQN](https://en.wikipedia.org/wiki/Q-learning)/[CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network)/[LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory)/...)    | 4   |
-| Genetic Algorithms ([NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies)/[Swarms](https://en.wikipedia.org/wiki/Swarm_intelligence))      | 3   |
+| Genetic Algorithms ([NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies))      | 3   |
 | Clustering ([K-Means](https://en.wikipedia.org/wiki/K-means_clustering))       | 3   |
 | Network Evaluation ([Page Rank](https://en.wikipedia.org/wiki/Network_science#PageRank)/[Centrality](https://en.wikipedia.org/wiki/Network_science#Centrality_measures))       | 2   |
 | [Monte Carlo Simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method)       | 2   |
