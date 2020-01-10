@@ -84,10 +84,10 @@ Over the years my intellectual interests have shifted here and there. From Mathe
 
 -----------------------------------------------------------
 
-- 2010: **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM)** in Mathematics, Further Mathematics, Physics, Economics, German
+2008 - 2010: **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM)** in Mathematics, Further Mathematics, Physics, Economics, German
 
 2011 - 2012: **[Imperial College London](https://www.imperial.ac.uk/)** studying **[MEng Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**
 
 2013 - 2015: **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[BEng Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**
 
-2017 - : **[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1)** studying **[BEng Informatik](https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bnzs/Informatik-B-Sc-/)**
+2017 - present: **[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1)** studying **[BEng Informatik](https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bnzs/Informatik-B-Sc-/)**
