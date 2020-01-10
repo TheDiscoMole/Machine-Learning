@@ -2,7 +2,7 @@
 layout: post
 title:  "Improving Neural Networks"
 date:   2017-01-01
-excerpt: "My silly attempts at real AI."
+excerpt: "My silly attempt at Strong AI."
 project: true
 tag:
 - Artificial Intelligence 
