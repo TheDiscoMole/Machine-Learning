@@ -10,23 +10,27 @@ comments: false
 
 -----------------------------------------------------------
 
-Approximately 7-8 years I discovered Theano and Machine Learning, and specifically theoretical Deep Learning has been one of my interests ever since. My skillset is self-taught through projects, YouTube, Wiki articles and, in early years, have found especially [Split Brain](https://en.wikipedia.org/wiki/Split-brain) patients, the basics of [Group Theory](https://en.wikipedia.org/wiki/Group_theory) and [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU) useful to try and understand neuro-computational structures more intuitively whilst also gaining a rigorous understanding of the mathematical principles behind Deep Learning like Linear Algebra, Gradient Descent & Derivatives, etc and getting to grips with useful programming languages and tools to implement actual solutions. The learning process in more recent years has mainly consisted of reading blog-posts of various projects from [Deepmind](https://magenta.tensorflow.org/gansynth) and [OpenAI](http://gym.openai.com/) and delving into the source code for those projects and pyTorch itself. All of this has been predominantly guided by my main [AI project]({{site.url}}/real-intelligence/).
+Approximately 7-8 years ago I discovered Theano and Machine Learning, and specifically Deep Learning has been one of my interests ever since. 
+
+My skillset is primarily self-taught through YouTube, Wikipedia, Blogs, etc. In early years I focussed on an intuitive understanding of neuro-computational structures through and YouTube playlists like [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU), online courses like the, now removed/revised self-driving car course on Udacity by Sebastian Thrun and open source learning libs/tools like [OpenAI Gym](http://gym.openai.com/). Later I delved into writing CUDA level Python extensions, for my own personal Neural Network optimization & model research, and playing around with the source code of existing ML projects, like Magenta's [GANSynth Waveform Synthesizer](https://magenta.tensorflow.org/gansynth) and NVidia's pyTorch [Tacotron2](https://github.com/NVIDIA/tacotron2) implementation.
+
+The majorty of this self-forged path is guided by my interest in General Purpose Intelligence and a long standing pet project which intends to implement Neurogenesis, Synaptogenesis and several other smaller tweeks into the core functionality of the Gradient Decent algorithm.
 
 -----------------------------------------------------------
 
 ## SKILLS
-*contain a rough skillset summary rated out of 5 to highlight where im comfortable (everything in brackets is just examples and doesn't fully retain everything I have worked with, check out my project portfolio to get a better clue at my skillset)*
+*contain a rough skillset summary with a confidence score out of 5 to highlight where im comfortable (everything in brackets is just examples and doesn't nesecarily fully show everything I have worked with)*
 
-| Languages  | /5  |
-|:-----------|----:|
-| Python     | 5   |
-| C++        | 4   |
-| LUA        | 3   |
-| Javascript | 3   |
-| Java       | 3   |
-| Scala      | 3   |
-| HTML/CSS   | 3   |
-| Bash       | 2   |
+| Languages  | */5  |
+|:-----------|-----:|
+| Python     | 5    |
+| C++        | 4    |
+| CUDA       | 4    |
+| LUA        | 2    |
+| Javascript | 3    |
+| Java       | 3    |
+| Scala      | 2    |
+| HTML/CSS   | 2    |
 
 -----------------------------------------------------------
 
