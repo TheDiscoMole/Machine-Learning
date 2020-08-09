@@ -34,15 +34,12 @@ The majorty of this self-forged path is guided by my interest in General Purpose
 
 -----------------------------------------------------------
 
-| Libs/Tools/... | /5 |
-|:--------------------------------------------|---:|
-| Deep Learning ([pyTorch](https://pytorch.org/)/[Theano](http://deeplearning.net/software/theano/)/[Tensorflow](https://www.tensorflow.org/)/[Torch](http://torch.ch/))  | 5  |
-| Machine Learning ([Keras](http://keras.io/)/[Caffe](http://caffe.berkeleyvision.org/))  | 4  |
-| GPU ([CUDA](https://docs.nvidia.com/cuda/)  | 4  |
-| MapReduce ([AWS Lambda](https://aws.amazon.com/)/[Spark](http://spark.apache.org/))   | 3  |
-| Cloud ([AWS](https://aws.amazon.com/))   | 3  |
-| SQL/NoSQL ([AWS Storage](https://aws.amazon.com/)/[MongoDB](https://www.mongodb.com/))   | 3  | 
-| Networking ([ZMQ](http://zeromq.org/))   | 2  |
+| Libs/Tools/etc | */5 |
+|:---------------|----:|
+| Machine Learning ([pyTorch](https://pytorch.org/)/[Theano](http://deeplearning.net/software/theano/)/[Tensorflow](https://www.tensorflow.org/)/[Torch](http://torch.ch/),[Keras](http://keras.io/)/[Caffe](http://caffe.berkeleyvision.org/))  | 5   |
+| Data Science ([Scipy/NumPy](https://numpy.org/),[Pandas](https://pandas.pydata.org/),[Scikit Learn](https://scikit-learn.org/)) | 4   |
+| Cloud/Scale ([AWS](https://aws.amazon.com/)/[Spark](http://spark.apache.org/),[ZMQ](http://zeromq.org/))   | 3  |
+| DataBase ([AWS Storage](https://aws.amazon.com/)/[MongoDB](https://www.mongodb.com/),[Neo4J](https://neo4j.com/developer/graph-database/))   | 3  | 
 
 -----------------------------------------------------------
 
