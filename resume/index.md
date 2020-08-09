@@ -57,9 +57,9 @@ The majorty of this self-forged path is guided by my interest in General Purpose
 
 2017-2019: worked at **[IMA Institut RWTH Aachen](https://cybernetics-lab.de/)** as student worker in a team responsible for implementing Machine Learning solutions for contractors. Projects:
 
-* *Saint Gobain* <br> using Computer Vision and Statistical Regression techniques to identify production line defects
-* *RWTH Language Department* <br> using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool
-* *Telekom* <br> using NLP (NER) to classify and anonymize chat logs containing sensitve personal data
+* **Saint Gobain** <br> Using Computer Vision and Statistical Regression techniques to identify production line defects.
+* **RWTH Language Department** <br> Using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool.
+* **Telekom** <br> Using NLP (NER) to classify and anonymize chat logs containing sensitve personal data.
 * ...
 
 Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scientist Intern, this job entailed:
