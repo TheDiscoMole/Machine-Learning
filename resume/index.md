@@ -34,61 +34,55 @@ The majorty of this self-forged path is guided by my interest in General Purpose
 
 -----------------------------------------------------------
 
-| Libs/Tools/etc | */5 |
-|:---------------|----:|
-| Machine Learning ([pyTorch](https://pytorch.org/)/[Theano](http://deeplearning.net/software/theano/)/[Tensorflow](https://www.tensorflow.org/)/[Torch](http://torch.ch/),[Keras](http://keras.io/)/[Caffe](http://caffe.berkeleyvision.org/))  | 5   |
-| Data Science ([Scipy/NumPy](https://numpy.org/),[Pandas](https://pandas.pydata.org/),[Scikit Learn](https://scikit-learn.org/)) | 4   |
-| Cloud/Scale ([AWS](https://aws.amazon.com/)/[Spark](http://spark.apache.org/),[ZMQ](http://zeromq.org/))   | 3  |
-| DataBase ([AWS Storage](https://aws.amazon.com/)/[MongoDB](https://www.mongodb.com/),[Neo4J](https://neo4j.com/developer/graph-database/))   | 3  | 
+| Libs/Tools/etc                                                  | */5 |
+|:----------------------------------------------------------------|----:|
+| Machine Learning (PyTorch/Theano/Tensorflow/Torch/Keras/Caffe)  | 5   |
+| Data Science (Scipy/NumPy/Pandas/Scikit Learn)                  | 4   |
+| Cloud/Scale (AWS/Spark/ZMQ)                                     | 3   |
+| DataBase (AWS Storage/MongoDB/Neo4J)                            | 3   | 
 
 -----------------------------------------------------------
 
-| ML Techniques | /5  |
-|:----------|----:|
-| Neural Networks ([ANN](https://en.wikipedia.org/wiki/Artificial_neural_network)/[DQN](https://en.wikipedia.org/wiki/Q-learning)/[CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network)/[LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory)/...)    | 4   |
-| Genetic Algorithms ([NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies))      | 3   |
-| Clustering ([K-Means](https://en.wikipedia.org/wiki/K-means_clustering))       | 3   |
-| Network Evaluation ([Page Rank](https://en.wikipedia.org/wiki/Network_science#PageRank)/[Centrality](https://en.wikipedia.org/wiki/Network_science#Centrality_measures))       | 2   |
-| [Monte Carlo Simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method)       | 2   |
-| [Random Forest](https://en.wikipedia.org/wiki/Decision_tree_learning)       | 2   |
+| Machine Learning Techniques             | */5 |
+|:----------------------------------------|----:|
+| Neural Networks (RL/Vision/NLP/Audio)   | 4   |
+| Genetic Algorithms                      | 3   |
+| Clustering                              | 3   |
+| Simulations & Brute Force               | 2   |
+| Descision Trees & Graphs                | 2   |
 
 -----------------------------------------------------------
 
 ## EXPERIENCE
-
-Here you will only find ML & Software related placements as my waiting skills are presumably not of note.
-
------------------------------------------------------------
 
 2011-2012: worked at **[Localsoft Games](http://www.localsoft.com/)** as a **Video Game Tester**, this job entailed:
 
 * Localisation Testing
 * QA Software Testing
 
-Summer 2014: [worked](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00) at **[Onalytica](http://www.onalytica.com/)** as a Data Scientist Intern, this job entailed:
+Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scientist Intern, this job entailed:
 
 * Real-Time Datastreams
 * Network Analysis
 * Cloud Computing
 
-September 2017 - September 2019: [IMA Intitut RWTH Aachen](https://cybernetics-lab.de/) as Deep Learning Intern/Assistant, this job entailed:
+[*Reference Letter*](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00)
 
-* NLP
-* Computer Vision
-* High Performance Computing
+2017-2019: worked at [IMA Institut RWTH Aachen](https://cybernetics-lab.de/) as student worker in a team responsible for implementing Machine Learning solutions for contractors. Projects:
+
+* contractor: Saint Gobain <br> project: using Computer Vision and Statistical Regression techniques to identify production line defects
+* contractor: RWTH Language Department <br> project: using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool
+* contractor: Telekom <br> project: using NLP (NER) to classify and anonymize personal chat logs
+* contractor: 
 
 -----------------------------------------------------------
 
 ## EDUCATION
 
-Over the years my intellectual interests have shifted here and there. From Mathematics to Psychology, Physics to Philosophy, Quantum Mechanics to Neuroscience and ever so slowly converging on Artificial Intelligence. Though my personal life was a little messy over the years and I dropped out of University twice, it was never due to an inability to keep up with the course.
-
------------------------------------------------------------
-
 2008 - 2010: **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM)** in Mathematics, Further Mathematics, Physics, Economics, German
 
-2011 - 2012: **[Imperial College London](https://www.imperial.ac.uk/)** studying **[MEng Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**
+2011 - 2012: **[Imperial College London](https://www.imperial.ac.uk/)** studying **[Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**
 
-2013 - 2015: **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[BEng Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**
+2013 - 2015: **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**
 
-2017 - present: **[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1)** studying **[BEng Informatik](https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bnzs/Informatik-B-Sc-/)**
+2017 - 2020: **[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1)** studying **[Informatik](https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bnzs/Informatik-B-Sc-/)**
