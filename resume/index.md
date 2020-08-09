@@ -55,11 +55,11 @@ The majorty of this self-forged path is guided by my interest in General Purpose
 
 ## EXPERIENCE
 
-2017-2019: worked at [IMA Institut RWTH Aachen](https://cybernetics-lab.de/) as student worker in a team responsible for implementing Machine Learning solutions for contractors. Projects:
+2017-2019: worked at **[IMA Institut RWTH Aachen](https://cybernetics-lab.de/)** as student worker in a team responsible for implementing Machine Learning solutions for contractors. Projects:
 
-* Saint Gobain <br> using Computer Vision and Statistical Regression techniques to identify production line defects
-* RWTH Language Department <br> using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool
-* Telekom <br> using NLP (NER) to classify and anonymize chat logs containing sensitve personal data
+* *Saint Gobain* <br> using Computer Vision and Statistical Regression techniques to identify production line defects
+* *RWTH Language Department* <br> using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool
+* *Telekom* <br> using NLP (NER) to classify and anonymize chat logs containing sensitve personal data
 * ...
 
 Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scientist Intern, this job entailed:
@@ -70,7 +70,7 @@ Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scie
 
 [*Reference Letter*](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00)
 
-2011-2012: worked at **[Localsoft Games](http://www.localsoft.com/)** as a **Video Game Tester**, this job entailed:
+2011-2012: worked at **[Localsoft Games](http://www.localsoft.com/)** as a Video Game Tester, this job entailed:
 
 * Localisation Testing
 * QA Software Testing
