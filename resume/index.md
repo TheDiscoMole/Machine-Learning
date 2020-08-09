@@ -55,10 +55,12 @@ The majorty of this self-forged path is guided by my interest in General Purpose
 
 ## EXPERIENCE
 
-2011-2012: worked at **[Localsoft Games](http://www.localsoft.com/)** as a **Video Game Tester**, this job entailed:
+2017-2019: worked at [IMA Institut RWTH Aachen](https://cybernetics-lab.de/) as student worker in a team responsible for implementing Machine Learning solutions for contractors. Projects:
 
-* Localisation Testing
-* QA Software Testing
+* Saint Gobain <br> using Computer Vision and Statistical Regression techniques to identify production line defects
+* RWTH Language Department <br> using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool
+* Telekom <br> using NLP (NER) to classify and anonymize chat logs containing sensitve personal data
+* ...
 
 Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scientist Intern, this job entailed:
 
@@ -68,21 +70,19 @@ Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scie
 
 [*Reference Letter*](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00)
 
-2017-2019: worked at [IMA Institut RWTH Aachen](https://cybernetics-lab.de/) as student worker in a team responsible for implementing Machine Learning solutions for contractors. Projects:
+2011-2012: worked at **[Localsoft Games](http://www.localsoft.com/)** as a **Video Game Tester**, this job entailed:
 
-* contractor: Saint Gobain <br> project: using Computer Vision and Statistical Regression techniques to identify production line defects
-* contractor: RWTH Language Department <br> project: using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool
-* contractor: Telekom <br> project: using NLP (NER) to classify and anonymize personal chat logs
-* contractor: 
+* Localisation Testing
+* QA Software Testing
 
 -----------------------------------------------------------
 
 ## EDUCATION
 
-2008 - 2010: **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM)** in Mathematics, Further Mathematics, Physics, Economics, German
-
-2011 - 2012: **[Imperial College London](https://www.imperial.ac.uk/)** studying **[Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**
+2017 - 2020: **[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1)** studying **[Informatik](https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bnzs/Informatik-B-Sc-/)**
 
 2013 - 2015: **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**
 
-2017 - 2020: **[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1)** studying **[Informatik](https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bnzs/Informatik-B-Sc-/)**
+2011 - 2012: **[Imperial College London](https://www.imperial.ac.uk/)** studying **[Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**
+
+2008 - 2010: **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM)** in Mathematics, Further Mathematics, Physics, Economics, German
