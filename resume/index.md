@@ -5,51 +5,41 @@ tags: [Artificial Intelligence, Machine Learning, Languages, Tools]
 date: 2016-03-21
 comments: false
 ---
-    
+
 <center> A short description of my Machine Learning skillset. </center>
 
 -----------------------------------------------------------
 
-Approximately 7-8 years ago I discovered Theano and Machine Learning, and specifically Deep Learning has been one of my interests ever since. 
+Approximately 7-8 years ago I discovered Theano and Machine Learning, and specifically Deep Learning has been one of my interests ever since.
 
-My skillset is primarily self-taught through YouTube, Wikipedia, Blogs, etc. In early years I focussed on an intuitive understanding of neuro-computational structures through and YouTube playlists like [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU), online courses like the, now removed/revised self-driving car course on Udacity by Sebastian Thrun and open source learning libs/tools like [OpenAI Gym](http://gym.openai.com/). Later I delved into writing CUDA level Python extensions, for my own personal Neural Network optimization & model research, and playing around with the source code of existing ML projects, like Magenta's [GANSynth Waveform Synthesizer](https://magenta.tensorflow.org/gansynth) and NVidia's pyTorch [Tacotron2](https://github.com/NVIDIA/tacotron2) implementation.
+My skill-set is primarily self-taught through YouTube, Wikipedia, Blogs, etc. In early years I focused on an intuitive understanding of neuro-computational structures through and YouTube playlists like [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU), online courses like the, now removed/revised self-driving car course on Udacity by Sebastian Thrun and open source learning libs/tools like [OpenAI Gym](http://gym.openai.com/). Later I delved into writing CUDA level Python extensions, for my own personal Neural Network optimization & model research, and playing around with the source code of existing ML projects, like Magenta's [GANSynth Waveform Synthesizer](https://magenta.tensorflow.org/gansynth) and Nvidia's [Tacotron2](https://github.com/NVIDIA/tacotron2) implementation.
 
-The majorty of this self-forged path is guided by my interest in General Purpose Intelligence and a long standing pet project which intends to implement Neurogenesis, Synaptogenesis and several other smaller tweeks into the core functionality of the Gradient Decent algorithm.
+The majority of this self-forged path is guided by my interest in General Purpose Intelligence and a long standing pet project which intends to implement Neurogenesis, Synaptogenesis and several other smaller tweaks into the core functionality of the Gradient Decent algorithm.
 
 -----------------------------------------------------------
 
 ## SKILLS
-*contain a rough skillset summary with a confidence score out of 5 to highlight where im comfortable (everything in brackets is just examples and doesn't nesecarily fully show everything I have worked with)*
+*contain a rough skill-set summary with a confidence score out of 5 to highlight where I'm comfortable (everything in brackets is just examples and doesn't necessarily fully show everything I have worked with)*
 
 | Languages  | */5  |
 |:-----------|-----:|
 | Python     | 5    |
 | C++        | 4    |
 | CUDA       | 4    |
-| LUA        | 2    |
-| Javascript | 3    |
+| SQL        | 3    |
 | Java       | 3    |
 | Scala      | 2    |
-| HTML/CSS   | 2    |
+| Javascript | 2    |
+| HTML       | 2    |
+| CSS        | 2    |
 
 -----------------------------------------------------------
 
-| Libs/Tools/etc                                                  | */5 |
-|:----------------------------------------------------------------|----:|
-| Machine Learning (PyTorch/Theano/Tensorflow/Torch/Keras/Caffe)  | 5   |
-| Data Science (Scipy/NumPy/Pandas/Scikit Learn)                  | 4   |
-| Cloud/Scale (AWS/Spark/ZMQ)                                     | 3   |
-| DataBase (AWS Storage/MongoDB/Neo4J)                            | 3   | 
-
------------------------------------------------------------
-
-| Machine Learning Techniques             | */5 |
-|:----------------------------------------|----:|
-| Neural Networks (RL/Vision/NLP/Audio)   | 4   |
-| Genetic Algorithms                      | 3   |
-| Clustering                              | 3   |
-| Simulations & Brute Force               | 2   |
-| Descision Trees & Graphs                | 2   |
+| Fields        | Tools                        | Techniques                            | */5 |
+|:--------------|------------------------------|---------------------------------------|----:|
+| Deep Learning | PyTorch/Tensorflow/Keras/... | Vision/NLP/Attention/...              | 4   |
+| Data Science  | Pandas/Neo4J/Tableau/...     | Monte Carlo/Regression/Clustering/... | 3   |
+| Scale Compute | AWS/Spark/CUDA/...           | MapReduce/P2P/GPU workers/...         | 3   |
 
 -----------------------------------------------------------
 
@@ -59,12 +49,12 @@ The majorty of this self-forged path is guided by my interest in General Purpose
 
 * **Saint Gobain** <br> Using Computer Vision and Statistical Regression techniques to identify production line defects.
 * **RWTH Language Department** <br> Using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool.
-* **Telekom** <br> Using NLP (NER) to classify and anonymize chat logs containing sensitve personal data.
+* **Telekom** <br> Using NLP (NER) to classify and anonymize chat logs containing sensitive personal data.
 * ...
 
 Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scientist Intern, this job entailed:
 
-* Real-Time Datastreams
+* Real-Time Data Streams
 * Network Analysis
 * Cloud Computing
 
