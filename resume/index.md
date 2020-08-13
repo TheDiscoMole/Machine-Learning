@@ -40,7 +40,7 @@ The majority of this self-forged path is guided by my interest in General Purpos
 
 | Fields        | Tools                        | Techniques                            | */5 |
 |:--------------|------------------------------|---------------------------------------|----:|
-| Deep Learning | PyTorch/Tensorflow/Keras/... | Vision/NLP/Attention/...              | 4   |
+| Deep Learning | PyTorch/Tensorflow/Keras/... | Vision/NLP/Attention/...              | 5   |
 | Data Science  | Pandas/Neo4J/Tableau/...     | Monte Carlo/Regression/Clustering/... | 3   |
 | Scale Compute | AWS/Spark/CUDA/...           | MapReduce/P2P/GPU workers/...         | 3   |
 
@@ -72,11 +72,11 @@ Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scie
 
 ## PROJECTS
 
-**[General Intelligence](#LINKHERE)**: I am writing my own Deep Learning framework in CUDA to learn and test ideas that are not executable in existing frameworks like PyTorch and Tensorflow. *(primarily parallelizable dynamic graph topologies)*
+**[General Intelligence](#LINKHERE)**: I am writing my own Deep Learning framework in CUDA to learn and test ideas that are not executable in existing frameworks like PyTorch and Tensorflow. <br> *(primarily parallelizable dynamic graph topologies)*
 
-**[Hierarchy Reduction]()**: A *fast* dimensionally agnostic multi-purpose layer for 'infinite' informational hierarchy reduction. (eg. an encoder able to read an entire corpus starting at the character level: character -> word -> sentence -> paragraph -> document -> corpus)
+**[Hierarchy Reduction]()**: A *fast* dimensionally agnostic multi-purpose layer for 'infinite' informational hierarchy reduction. <br> *(eg. an encoder able to read an entire corpus starting at the character level: character -> word -> sentence -> paragraph -> document -> corpus)*
 
-**[SRU]**: A simplification of the GRU cell.
+**[SRU]()**: A simplification of the GRU cell. <br> (Part of the GRU cell seemed redundant, so it was removed in this implementation)
 
 -----------------------------------------------------------
 
