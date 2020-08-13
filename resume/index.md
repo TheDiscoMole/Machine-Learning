@@ -7,6 +7,7 @@ comments: false
 ---
 
 <center> A short description of my Machine Learning skillset. </center>
+<center> **[PDF]()** </center>
 
 -----------------------------------------------------------
 
@@ -73,6 +74,6 @@ Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scie
 
 2013 - 2015: **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**
 
-2011 - 2012: **[Imperial College London](https://www.imperial.ac.uk/)** studying **[Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**
+2011 - 2012: **[Imperial College London](https://www.imperial.ac.uk/)** studying **[Joint Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**
 
-2008 - 2010: **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level_(United_Kingdom))** in Sciences *([grades](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM))*
+2008 - 2010: **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level_(United_Kingdom))** in Sciences: *[grades](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM)*
