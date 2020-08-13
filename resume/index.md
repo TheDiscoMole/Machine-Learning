@@ -6,14 +6,10 @@ date: 2016-03-21
 comments: false
 ---
 
-<center> A short description of my Machine Learning skillset. </center> 
-
 <p align="center">
-  A short description of my Machine Learning skillset.
-  <a href="https://docs.google.com/document/d/1jisK2Xm3LyebJIStSPhRK0Fzi2G3bu7X7vmOC55qad8/edit?usp=sharing">PDF</a>
+A short description of my Machine Learning skillset. <br>
+<a href="https://docs.google.com/document/d/1jisK2Xm3LyebJIStSPhRK0Fzi2G3bu7X7vmOC55qad8/edit?usp=sharing"><b>PDF</b></a>
 </p>
-
-**[PDF](https://docs.google.com/document/d/1jisK2Xm3LyebJIStSPhRK0Fzi2G3bu7X7vmOC55qad8/edit?usp=sharing)**
 
 -----------------------------------------------------------
 
