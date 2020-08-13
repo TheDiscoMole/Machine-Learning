@@ -7,7 +7,8 @@ comments: false
 ---
 
 <center> A short description of my Machine Learning skillset. </center>
-<center> **[PDF]()** </center>
+
+<center> **[PDF](https://docs.google.com/document/d/1jisK2Xm3LyebJIStSPhRK0Fzi2G3bu7X7vmOC55qad8/edit?usp=sharing)** </center>
 
 -----------------------------------------------------------
 
