@@ -74,9 +74,9 @@ Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scie
 
 **[General Intelligence](#LINKHERE)**: I am writing my own Deep Learning framework in CUDA to learn and test ideas that are not executable in existing frameworks like PyTorch and Tensorflow. <br> *(primarily parallelizable dynamic graph topologies)*
 
-**[Hierarchy Reduction]()**: A *fast* dimensionally agnostic multi-purpose layer for 'infinite' informational hierarchy reduction. <br> *(eg. an encoder able to read an entire corpus starting at the character level: character -> word -> sentence -> paragraph -> document -> corpus)*
+**[Hierarchy Reduction]()**: A *fast* dimensionally agnostic multi-purpose layer for 'infinite' informational hierarchy reduction. <br> *(eg. encoder: character > word > sentence > paragraph > document > corpus)*
 
-**[SRU]()**: A simplification of the GRU cell. <br> (Part of the GRU cell seemed redundant, so it was removed in this implementation)
+**[SRU]()**: A simplification of the GRU cell. <br> *(Part of the GRU cell seemed redundant, so it was removed in this implementation)*
 
 -----------------------------------------------------------
 
