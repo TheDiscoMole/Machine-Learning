@@ -1,7 +1,7 @@
 # Site
 title:              Kim Roder
 bio:                'Machine Learning Resume'
-description:        "Short summary of my Machine Learning skillset."
+description:        "A short description of my Machine Learning skillset."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/face.jpg'
