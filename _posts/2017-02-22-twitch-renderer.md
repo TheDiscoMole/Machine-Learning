@@ -1,19 +1,16 @@
 ---
 layout: post
-title:  "Twitch Renderer"
-date:   2017-01-01
+title: "Twitch Renderer"
+date: 2017-01-01
 excerpt: "Twitch Stream & Chat renderer for AI"
-project: true
+project: false
 tag:
-- Artificial Intelligence 
-- NLP
-- Computer Vision
-- Twitch
 comments: false
 ---
 
 
 [<center> github </center>](https://github.com/TheDiscoMole/twitch-renderer)
+<center><b>The API hack is broken now</b></center>
 
 ------------------------------------------------------------------
 
