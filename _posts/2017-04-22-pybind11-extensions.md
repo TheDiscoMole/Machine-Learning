@@ -3,7 +3,6 @@ layout: post
 title: "PyBind11 CUDA Extensions"
 date: 2017-04-22
 excerpt: "A better way to compile header-only CUDA extensions"
-project: false
 tag:
 comments: false
 ---

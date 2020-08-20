@@ -4,9 +4,6 @@ title:  "Budget Deep Learning"
 date:   2016-08-11
 excerpt: "A reasonably functional example of a budget Deep Learning computer build."
 tag:
-- Deep Learning
-- PC Build
-- GTX 1060
 comments: false
 ---
 

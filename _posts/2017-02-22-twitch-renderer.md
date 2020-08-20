@@ -3,7 +3,6 @@ layout: post
 title: "Twitch Renderer"
 date: 2017-01-01
 excerpt: "Twitch Stream & Chat renderer for AI"
-project: false
 tag:
 comments: false
 ---

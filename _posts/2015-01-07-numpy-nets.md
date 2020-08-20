@@ -3,7 +3,6 @@ layout: post
 title: "Numpy Nets"
 date: 2015-01-07
 excerpt: "Python Neural Networks with Numpy from scratch for learning purposes"
-project: false
 tag:
 comments: false
 ---
