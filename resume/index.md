@@ -17,7 +17,7 @@ Approximately 7-8 years ago I discovered Theano and Machine Learning, and specif
 
 My skill-set is primarily self-taught through YouTube, Wikipedia, Blogs, etc. In early years I focused on an intuitive understanding of neuro-computational structures through and YouTube playlists like [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU), online courses like the, now removed/revised self-driving car course on Udacity by Sebastian Thrun and open source learning libs/tools like [OpenAI Gym](http://gym.openai.com/). Later I delved into writing CUDA level Python extensions, for my own personal Neural Network optimization & model research, and playing around with the source code of existing ML projects, like Magenta's [GANSynth Waveform Synthesizer](https://magenta.tensorflow.org/gansynth) and Nvidia's [Tacotron2](https://github.com/NVIDIA/tacotron2) implementation.
 
-The majority of this self-forged path is guided by my interest in General Purpose Intelligence and a long standing pet project which intends to implement Neurogenesis, Synaptogenesis and several other smaller tweaks into the core functionality of the Gradient Decent algorithm.
+The majority of this self-forged path is guided by my interest in General Purpose Intelligence and a long standing pet project which intends to implement neurogenesis, synaptogenesis and several other smaller tweaks into the core functionality of the Gradient Decent algorithm.
 
 -----------------------------------------------------------
 
@@ -40,7 +40,7 @@ The majority of this self-forged path is guided by my interest in General Purpos
 
 | Fields        | Tools                        | Techniques                            | */5 |
 |:--------------|------------------------------|---------------------------------------|----:|
-| Deep Learning | PyTorch/Tensorflow/Keras/... | Vision/NLP/Attention/...              | 5   |
+| Deep Learning | PyTorch/Tensorflow/Keras/... | Vision/NLP/Attention/...              | 4   |
 | Data Science  | Pandas/Neo4J/Tableau/...     | Monte Carlo/Regression/Clustering/... | 3   |
 | Scale Compute | AWS/Spark/CUDA/...           | MapReduce/P2P/GPU workers/...         | 3   |
 
@@ -72,7 +72,7 @@ Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scie
 
 ## PROJECTS
 
-**[General Intelligence](#LINKHERE)**: I am writing my own Deep Learning framework in CUDA to learn and test ideas that are not executable in existing frameworks like PyTorch and Tensorflow. <br> *(primarily parallelizable dynamic graph topologies)*
+**[General Intelligence]()**: I am writing my own Deep Learning framework in CUDA to learn and test ideas that are not executable in existing frameworks like PyTorch and Tensorflow. <br> *(primarily parallelizable dynamic graph topologies)*
 
 **[Hierarchy Reduction]()**: A *fast* dimensionally agnostic multi-purpose layer for 'infinite' informational hierarchy reduction. <br> *(eg. encoder: character > word > sentence > paragraph > document > corpus)*
 
@@ -82,7 +82,7 @@ Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scie
 
 ## EDUCATION
 
-2017 - 2020: **[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1)** studying **[Informatik](https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bnzs/Informatik-B-Sc-/)**
+2017 - 2019: **[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1)** studying **[Informatik](https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bnzs/Informatik-B-Sc-/)**
 
 2013 - 2015: **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**
 
