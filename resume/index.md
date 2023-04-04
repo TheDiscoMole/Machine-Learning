@@ -21,14 +21,15 @@ My comprehensive understanding of both software and data, and willingness to lea
 
 ## EXPERIENCE
 
-2020-2023: **Lead Developer** at Hetrafi (in development)
+2020-2023: **Lead Developer** at [Hetrafi](hetrafi.com) (in development):
 A Gaming marketplace/hub start-up for gamers who want to trade, compete and provide services in their favourite online games. My responsibilities included:
+
 * Supervising Development
 * Designing and implementing our Google Cloud architecture using Go
 * Maintaining access control for our cloud and GitHub resources
 * ...
 
-2017-2019: **Junior ML Developer** at [IMA Institut RWTH Aachen](https://cybernetics-lab.de/)
+2017-2019: **Junior ML Developer** at [IMA Institut RWTH Aachen](https://cybernetics-lab.de/):
 A machine learning consultancy at the RWTH university where we assisted with ML solutions research for companies such as Telekom and Saint Gobain. Projects required knowledge of:
 
 * **Saint Gobain** <br> Using Computer Vision and Statistical Regression techniques to identify production line defects.
@@ -36,11 +37,13 @@ A machine learning consultancy at the RWTH university where we assisted with ML 
 * **RWTH Language Department** <br> Using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool.
 * ...
 
-Summer 2014: **Data Science Intern** at **[Onalytica](http://www.onalytica.com/)** *[reference](https://drive.google.com/file/d/0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00/view?resourcekey=0-t9gSsue7cyFvfbKCReZzPg)*
+Summer 2014: **Data Science Intern** at [Onalytica](http://www.onalytica.com/):
 A social media data analysis consultancy that searched for efficient Twitter influencers based on topics provided by our clients. Twitter analysis was performed through:
 
 * Sentiment Analysis using NLP techniques
 * Clustering of topics and engagements
+
+*[reference](https://drive.google.com/file/d/0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00/view?resourcekey=0-t9gSsue7cyFvfbKCReZzPg)*
 
 -----------------------------------------------------------
 
@@ -57,7 +60,7 @@ A social media data analysis consultancy that searched for efficient Twitter inf
 | Java       | 3    |
 | Scala      | 2    |
 
-**Tools, Techniques, etc...**
+**Tools, Techniques, etc**:
 GraphQL/REST, GCP/AWS/Azure, DDD, TDD, Microservices, Serverless, CI/CD, Git, gRPC, Machine Learning, NLP/Computer Vision/.., Data Science, PyTorch/Tensorflow, SQL/NoSQL, Map-Reduce, Agile, CUDA, Linux, Docker, ...
 
 -----------------------------------------------------------
@@ -66,4 +69,4 @@ GraphQL/REST, GCP/AWS/Azure, DDD, TDD, Microservices, Serverless, CI/CD, Git, gR
 
 **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**
 
-**[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level_(United_Kingdom))** in Sciences: *[grades](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM)*
+**[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level_(United_Kingdom))** in Mathematics and Physics
