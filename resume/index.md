@@ -48,9 +48,8 @@ A social media data analysis consultancy that searched for efficient Twitter inf
 -----------------------------------------------------------
 
 ## SKILLS
-*This contain a rough skill-set summary. Ratings represent comfort/5*
 
-| Languages  | */5  |
+| Languages  |  /5  |
 |:-----------|-----:|
 | Go         | 5    |
 | Python     | 5    |
