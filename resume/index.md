@@ -7,85 +7,63 @@ comments: false
 ---
 
 <p align="center">
-A short description of my Machine Learning skillset. <br>
-<a href="https://docs.google.com/document/d/1jisK2Xm3LyebJIStSPhRK0Fzi2G3bu7X7vmOC55qad8/edit?usp=sharing"><b>PDF</b></a>
+A short description of my Software Development skillset. <br>
+<a href="https://docs.google.com/document/d/1jisK2Xm3LyebJIStSPhRK0Fzi2G3bu7X7vmOC55qad8/edit?usp=sharing"><b>Download</b></a> as PDF
 </p>
 
 -----------------------------------------------------------
 
-Approximately 7-8 years ago I discovered Theano and Machine Learning, and specifically Deep Learning has been one of my interests ever since.
+I have experience developing and deploying cloud based functionality pipelines, and a history in Data Science and Machine Learning regarding data analysis and storage design.
 
-My skill-set is primarily self-taught through YouTube, Wikipedia, Blogs, etc. In early years I focused on an intuitive understanding of neuro-computational structures through and YouTube playlists like [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU), online courses like the, now removed/revised self-driving car course on Udacity by Sebastian Thrun and open source learning libs/tools like [OpenAI Gym](http://gym.openai.com/). Later I delved into writing CUDA level Python extensions, for my own personal Neural Network optimization & model research, and playing around with the source code of existing ML projects, like Magenta's [GANSynth Waveform Synthesizer](https://magenta.tensorflow.org/gansynth) and Nvidia's [Tacotron2](https://github.com/NVIDIA/tacotron2) implementation.
-
-The majority of this self-forged path is guided by my interest in General Purpose Intelligence and a long standing pet project which intends to implement neurogenesis, synaptogenesis and several other smaller tweaks into the core functionality of the Gradient Decent algorithm.
-
------------------------------------------------------------
-
-## SKILLS
-*contain a rough skill-set summary with a confidence score out of 5 to highlight where I'm comfortable (everything in brackets is just examples and doesn't necessarily fully show everything I have worked with)*
-
-| Languages  | */5  |
-|:-----------|-----:|
-| Python     | 5    |
-| C++        | 4    |
-| CUDA       | 4    |
-| SQL        | 3    |
-| Java       | 3    |
-| Scala      | 2    |
-| Javascript | 2    |
-| HTML       | 2    |
-| CSS        | 2    |
-
------------------------------------------------------------
-
-| Fields        | Tools                        | Techniques                            | */5 |
-|:--------------|------------------------------|---------------------------------------|----:|
-| Deep Learning | PyTorch/Tensorflow/Keras/... | Vision/NLP/Attention/...              | 4   |
-| Data Science  | Pandas/Neo4J/Tableau/...     | Monte Carlo/Regression/Clustering/... | 3   |
-| Scale Compute | AWS/Spark/CUDA/...           | MapReduce/P2P/GPU workers/...         | 3   |
+My comprehensive understanding of both software and data, and willingness to learn and use new technologies, tools and languages, allows for the implementation of more intuitive and robust systems overall.
 
 -----------------------------------------------------------
 
 ## EXPERIENCE
 
-2017-2019: worked at **[IMA Institut RWTH Aachen](https://cybernetics-lab.de/)** as student worker in a team responsible for implementing Machine Learning solutions for contractors. Projects:
-
-* **Saint Gobain** <br> Using Computer Vision and Statistical Regression techniques to identify production line defects.
-* **RWTH Language Department** <br> Using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool.
-* **Telekom** <br> Using NLP (NER) to classify and anonymize chat logs containing sensitive personal data.
+2020-2023: **Lead Developer** at Hetrafi (in development)
+A Gaming marketplace/hub start-up for gamers who want to trade, compete and provide services in their favourite online games. My responsibilities included:
+* Supervising Development
+* Designing and implementing our Google Cloud architecture using Go
+* Maintaining access control for our cloud and GitHub resources
 * ...
 
-Summer 2014: worked at **[Onalytica](http://www.onalytica.com/)** as a Data Scientist Intern, this job entailed:
+2017-2019: **Junior ML Developer** at [IMA Institut RWTH Aachen](https://cybernetics-lab.de/)
+A machine learning consultancy at the RWTH university where we assisted with ML solutions research for companies such as Telekom and Saint Gobain. Projects required knowledge of:
 
-* Real-Time Data Streams
-* Network Analysis
-* Cloud Computing
+* **Saint Gobain** <br> Using Computer Vision and Statistical Regression techniques to identify production line defects.
+* **Telekom** <br> Using NLP (NER) to classify and anonymize chat logs containing sensitive personal data.
+* **RWTH Language Department** <br> Using NLP, MapReduce corpus analysis and Graphical Databases to build a knowledge graph based Language learning tool.
+* ...
 
-[*Reference Letter*](https://drive.google.com/open?id=0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00)
+Summer 2014: **Data Science Intern** at **[Onalytica](http://www.onalytica.com/)** *[reference](https://drive.google.com/file/d/0B9uCsNmRtZ2CSGJYRWtWZ2dxQ00/view?resourcekey=0-t9gSsue7cyFvfbKCReZzPg)*
+A social media data analysis consultancy that searched for efficient Twitter influencers based on topics provided by our clients. Twitter analysis was performed through:
 
-2011-2012: worked at **[Localsoft Games](http://www.localsoft.com/)** as a Video Game Tester, this job entailed:
-
-* Localisation Testing
-* QA Software Testing
+* Sentiment Analysis using NLP techniques
+* Clustering of topics and engagements
 
 -----------------------------------------------------------
 
-## PROJECTS
+## SKILLS
+*This contain a rough skill-set summary. Ratings represent comfort/5*
 
-**[General Intelligence]()**: I am writing my own Deep Learning framework in CUDA to learn and test ideas that are not executable in existing frameworks like PyTorch and Tensorflow. <br> *(primarily parallelizable dynamic graph topologies)*
+| Languages  | */5  |
+|:-----------|-----:|
+| Go         | 5    |
+| Python     | 5    |
+| C++        | 4    |
+| Javascript | 3    |
+| C#         | 3    |
+| Java       | 3    |
+| Scala      | 2    |
 
-**[Hierarchy Reduction]()**: A *fast* dimensionally agnostic multi-purpose layer for 'infinite' informational hierarchy reduction. <br> *(eg. encoder: character > word > sentence > paragraph > document > corpus)*
-
-**[SRU]()**: A simplification of the GRU cell. <br> *(Part of the GRU cell seemed redundant, so it was removed in this implementation)*
+**Tools, Techniques, etc...**
+GraphQL/REST, GCP/AWS/Azure, DDD, TDD, Microservices, Serverless, CI/CD, Git, gRPC, Machine Learning, NLP/Computer Vision/.., Data Science, PyTorch/Tensorflow, SQL/NoSQL, Map-Reduce, Agile, CUDA, Linux, Docker, ...
 
 -----------------------------------------------------------
 
 ## EDUCATION
 
-2017 - 2019: **[RWTH Aachen](https://www.rwth-aachen.de/go/id/a/?lidx=1)** studying **[Informatik](https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bnzs/Informatik-B-Sc-/)**
+**[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**
 
-2013 - 2015: **[King's College London](http://www.kcl.ac.uk/index.aspx)** studying **[Computer Science with Intelligent Systems](http://www.kcl.ac.uk/study/undergraduate/courses/computer-science-with-intelligent-systems-bsc.aspx)**
-
-2011 - 2012: **[Imperial College London](https://www.imperial.ac.uk/)** studying **[Joint Mathematics and Computer Science](http://www.imperial.ac.uk/computing/current-students/jmc-info/jmc-first-year/)**
-
-2008 - 2010: **[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level_(United_Kingdom))** in Sciences: *[grades](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM)*
+**[English International College](http://eicmarbella.org/)** with **[A-Levels](https://en.wikipedia.org/wiki/GCE_Advanced_Level_(United_Kingdom))** in Sciences: *[grades](https://drive.google.com/open?id=0B9uCsNmRtZ2CTlZQOWNDdVZwSXM)*
