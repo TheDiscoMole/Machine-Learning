@@ -7,7 +7,7 @@ tag:
 comments: false
 ---
 
-This post describes the implementation basics required to write a cost-effective, high-uptime data ingestion microservice on the Google Cloud. The example will be based around consuming free weather APIs and is used to aggregate forecast data.
+This post describes the implementation basics required to write a cost-effective, high-uptime data ingestion microservice on the Google Cloud as part of a Machine Learning pipeline. The example will be based around consuming free weather APIs and is used to aggregate forecast data.
 
 Code for this post can be found **[HERE](https://github.com/TheDiscoMole/pipeline/ingest)**
 
@@ -68,7 +68,7 @@ RUN go build -C cmd/server -v -o ../../build/server
 CMD ["./build/server"]
 ```
 
-**Event Triggers**: We can set up [scheduled HTTP events](https://cloud.google.com/run/docs/triggering/using-scheduler) to trigger our Cloud Run instance to consume the next batch API data on regular intervals.
+**Event**: We can set up [scheduled HTTP events](https://cloud.google.com/run/docs/triggering/using-scheduler) to trigger our Cloud Run instance to consume the next batch API data on regular intervals.
 
 **Server**: Since we will be consuming very simple HTTP requests that are just triggers to start up our data consumption, our request handler should be as simple and light weight as possible. [Chi](https://go-chi.io/#/) is a great library for this. Here is a sample of all we need to set up our server and manage our data type ingest triggers/routes.
 
@@ -101,3 +101,111 @@ func Weather (configs *config.Config) func (http.ResponseWriter, *http.Request) 
 ```
 
 We don't really care about authentication as this will be handled automatically through the communication protocol settings in our private cloud.
+
+**Service**: The service is responsible for the meat of our application. It implements the interface for the consumption & normalization of the datatype that we are consuming. In regards to our event-driven weather ingest, this means we need to handle batch requests GET requests for every API we will be consuming and mapping the responses to our unified data model located under `pkg/model`. We achieve this through an implementation of the following samples:
+
+`internal/service/weather/api/[API_TYPE]/forecast.go`
+```go
+func (c *Client) ForecastLocation (coordinate model.Coordinate) ([]*model.Forecast, error) {
+    url := c.baseUrl + "/forecast" + c.urlArgs
+
+    // get apiType forecast
+    response, err := c.client.Get(url)
+
+    if err != nil {
+        return nil, err
+    }
+    defer response.Body.Close()
+
+    // validate status code
+    if response.StatusCode != http.StatusOK {
+        return nil, fmt.Errorf("API_TYPE Status Code not OK: %d", response.StatusCode)
+    }
+
+    // decode forecast
+    forecastResponse := apiTypeResponse{}
+
+    if err := json.NewDecoder(response.Body).Decode(&forecastResponse); err != nil {
+        return nil, err
+    }
+
+    // convert to unified model
+    return forecastResponse.toForecasts(), nil
+}
+```
+
+`internal/service/weather/api/[API_TYPE]/model.go`
+```go
+type apiTypeResponse{
+    ...
+}
+
+func (f apiTypeResponse) toForecasts() []*model.Forecast {
+    // map apiTypeResponse onto a slice of forecasts used by our internal schema
+}
+```
+
+After consuming the forecast into the `apiTypeResponse` json model specified by the API provider, we convert it into our unified model schema, specified in `pkg/model/weather.go`, using `forecast.toForecasts()`. Now we are ready to save these weather forecasts as though they stem from a single source.
+
+**Storage**: Finally we would, normally, be implementing the data storage using the repository pattern for layer abstraction and to simplify injections for our testing library. This would be accomplished by defining the repository interface under `pkg/repository` and implementing them in each consumer type (eg `internal/service/weather/repository`). As this sample service is part of a Machine Learning pipeline in the Google Cloud we will using a single generalizable method for storage and task forwarding.
+
+Many API source we may consider consuming may for full uptime data streams may be full-uptime data streams, such as the recently deprecated Twitter Sample Stream (the original subject of this ML pipeline example, until Elon happened). It is for high-demand streams such as this that ingestion and pre-processing separation was invented, as both consuming and pre-processing such streams becomes a bottle-necking nightmare. This problem can solved by saving data batches to a file storage system and queueing processing jobs for workers to consume. Cloud Pub/Sub and Storage are perfect for this. Cloud storage becomes our offloading file system and Pub/Sub will act as the fully managed task queue that interfaces task forwarding, through event triggers, perfectly.
+
+We store our data and publish our tasks as follows:
+
+`pkg/repository/storage.go`
+```go
+func (s *Storage) Save (ctx context.Context, filename string, data []byte) error {
+    client, err := storage.NewClient(ctx)
+
+    if err != nil {
+        return err
+    }
+    defer client.Close()
+
+    // create object writer
+    bucket := client.Bucket(s.Bucket)
+    object := bucket.Object(filename)
+    writer := object.NewWriter(ctx)
+
+    // write data
+    if _, err := writer.Write(data); err != nil {
+        return err
+    }
+    if err := writer.Close(); err != nil {
+        return err
+    }
+
+    return nil
+}
+```
+
+`pkg/publish/publish.go`
+```go
+func (c *Client) Publish (ctx context.Context, topic string, data string, attributes map[string]string) error {
+    // create Google PubSub client
+    client, err := pubsub.NewClient(ctx, c.projectID)
+
+    if err != nil {
+        return err
+    }
+    defer client.Close()
+
+    // publish message
+    publisher := client.Topic(topic)
+    publishResult := publisher.Publish(
+        ctx,
+        &pubsub.Message{
+            Data: []byte(data),
+            Attributes: attributes,
+        },
+    )
+
+    // handle failure
+    if _, err := publishResult.Get(ctx); err != nil {
+        return err
+    }
+
+    return nil
+}
+```
