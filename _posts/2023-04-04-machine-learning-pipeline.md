@@ -26,7 +26,7 @@ Code for this project can be found **[HERE](https://github.com/TheDiscoMole/pipe
 
 **deployment**: Continuous deployment from a GitHub mono-repository to the Google Cloud is surprisingly simple using [Cloud Build](https://cloud.google.com/build), [Docker](https://www.docker.com/) and a `cloudbuild.yaml` configuration file tied to each microservice. Spin up an empty service in the Google Cloud user interface and use the deployment region and service name in your configuration file. Here is an example for Cloud Run: (change the final step if you wish to deploy the image to a different, relevant, cloud product)
 
-{% highlight yaml %}
+```yaml
 steps:
   # Build the container image
   - name: 'gcr.io/cloud-builders/docker'
@@ -56,8 +56,7 @@ steps:
     - '<SERVICE_REGION>'
 images:
   - 'gcr.io/$PROJECT_ID/<SERVICE_NAME>:$COMMIT_SHA'
-{% endhighlight %}
-
+```
 
 **microservices**:
 
