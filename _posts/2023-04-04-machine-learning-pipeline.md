@@ -20,7 +20,7 @@ Code for this project can be found **[HERE](https://github.com/TheDiscoMole/pipe
 
 **monolith or microservices?**: We will be optimizing for scale and cost efficiency in the Cloud with continuous and on-demand functionality it makes sense to split the pipeline into a subset of microservices. This will allow us to run on-demand or event based services on a serverless tech-stack and use programming languages appropriate for the functionality requirements at each part of the pipeline.
 
-**mono-repo or multi-repo?**: Whilst it can be far more convenient to manage CI/CD pipelines with multiple repositories having simple build triggers, I rather have my project isolated from other repositories on my GitHub. Additionally multi-repositories come with their own challenges for managing libraries required across multiple services. (such as proto definitions)
+**mono-repo or multi-repo?**: Whilst multi-repository patterns can be far more convenient to manage CI/CD pipelines, with multiple repositories having one build trigger, I rather have my project isolated from other repositories on my GitHub. Additionally multi-repositories come with their own challenges for managing libraries required across multiple services. (such as proto definitions)
 
 **AWS or GCP?**: Both cloud providers have essentially the same offering when it comes down to it. My personal preference lies with GCP due to its cleaner and more flushed out documentation and the existence of [Cloud Run](https://cloud.google.com/run). This is, to my most recent knowledge of serverless offerings, one of the only serverless solutions that can process multiple requests at once, allowing for even more efficient scaling in terms of compute cost.
 

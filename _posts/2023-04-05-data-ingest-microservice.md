@@ -209,3 +209,7 @@ func (c *Client) Publish (ctx context.Context, topic string, data string, attrib
     return nil
 }
 ```
+
+------------------------------------------------------------------
+
+Continue reading about the implementation details of my example pipeline in Part 2: [Data Pre-Processing GCP Microservice (weather API example)](https://thediscomole.github.io/portfolio/data-preprocessing-microservice/)
