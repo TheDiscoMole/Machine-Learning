@@ -21,7 +21,7 @@ My comprehensive understanding of both software and data, and willingness to lea
 
 ## EXPERIENCE
 
-2020-2023: **Lead Developer** at [Hetrafi](hetrafi.com) (in development):
+2020-2023: **Lead Developer** at [Hetrafi](https://hetrafi.com) (in development):
 A Gaming marketplace/hub start-up for gamers who want to trade, compete and provide services in their favourite online games. My responsibilities included:
 
 * Supervising Development
