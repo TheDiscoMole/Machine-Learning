@@ -12,7 +12,7 @@ Part 2 can be found **[HERE](https://thediscomole.github.io/portfolio/data-prepr
 
 This post describes the implementation basics required to write a cost-effective, high-uptime data pre-processing microservice on the Google Cloud as part of a Machine Learning pipeline. The example will implement a generic interface for the prediction of weather.
 
-Code for this post can be found **[HERE](https://github.com/TheDiscoMole/tree/main/example-pipe//predict)**
+Code for this post can be found **[HERE](https://github.com/TheDiscoMole/example-pipe/tree/main/predict)**
 
 ------------------------------------------------------------------
 

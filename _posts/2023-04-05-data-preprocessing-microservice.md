@@ -12,7 +12,7 @@ Part 1 can be found **[HERE](https://thediscomole.github.io/portfolio/data-inges
 
 This post describes the implementation basics required to write a cost-effective, high-uptime data pre-processing microservice on the Google Cloud as part of a Machine Learning pipeline. The example will implement a generic interface for the pre-processing of several data types.
 
-Code for this post can be found **[HERE](https://github.com/TheDiscoMole/tree/main/example-pipe/preprocess)**
+Code for this post can be found **[HERE](https://github.com/TheDiscoMole/example-pipe/tree/main/preprocess)**
 
 ------------------------------------------------------------------
 

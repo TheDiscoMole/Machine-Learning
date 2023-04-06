@@ -11,7 +11,7 @@ Project description can be found **[HERE](https://thediscomole.github.io/portfol
 
 This post describes the implementation basics required to write a cost-effective, high-uptime data ingestion microservice on the Google Cloud as part of a Machine Learning pipeline. The example will be based around consuming free weather APIs and is used to aggregate forecast data.
 
-Code for this post can be found **[HERE](https://github.com/TheDiscoMole/tree/main/example-pipe/ingest)**
+Code for this post can be found **[HERE](https://github.com/TheDiscoMole/example-pipe/tree/main/ingest)**
 
 ------------------------------------------------------------------
 
