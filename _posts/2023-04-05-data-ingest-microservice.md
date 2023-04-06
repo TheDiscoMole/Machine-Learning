@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Data Ingestion GCP Microservice (weather API example)"
+title: "Machine Learning Pipeline (GCP) Part 1: Data Ingestion Microservice"
 date: 2023-04-05
 excerpt: "A generic data ingestion GCP microservice example using weather data"
 tag:
 comments: false
 ---
 
+Project description can be found [HERE](https://thediscomole.github.io/portfolio/machine-learning-pipeline/)
+
 This post describes the implementation basics required to write a cost-effective, high-uptime data ingestion microservice on the Google Cloud as part of a Machine Learning pipeline. The example will be based around consuming free weather APIs and is used to aggregate forecast data.
 
-Code for this post can be found **[HERE](https://github.com/TheDiscoMole/pipeline/ingest)**
+Code for this post can be found **[HERE](https://github.com/TheDiscoMole/example-pipe/ingest)**
 
 ------------------------------------------------------------------
 
@@ -30,7 +32,7 @@ Our code structure follows most standard deep Go application file structures.
 ```
 ├── build
 ├── cmd
-│   ├── server
+│   └── server
 ├── config
 ├── internal
 │   ├── server
