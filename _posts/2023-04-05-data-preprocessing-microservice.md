@@ -2,13 +2,13 @@
 layout: post
 title: "Machine Learning Pipeline (GCP) Part 2: Data Pre-Processing Microservice"
 date: 2023-04-05
-excerpt: "A generic data pre-processing GCP microservice example using weather data"
+excerpt: "A generic data pre-processing GCP microservice example using audio/image/text data"
 tag:
 comments: false
 ---
 
-Project description can be found [HERE](https://thediscomole.github.io/portfolio/machine-learning-pipeline/)<br/>
-Part 1 can be found [HERE](https://thediscomole.github.io/portfolio/data-ingest-microservice/)
+Project description can be found **[HERE](https://thediscomole.github.io/portfolio/machine-learning-pipeline/)**<br/>
+Part 1 can be found **[HERE](https://thediscomole.github.io/portfolio/data-ingest-microservice/)**
 
 This post describes the implementation basics required to write a cost-effective, high-uptime data pre-processing microservice on the Google Cloud as part of a Machine Learning pipeline. The example will implement a generic interface for the pre-processing of several data types.
 
@@ -140,11 +140,56 @@ async def preprocess (filename):
         np.save(file, mel)
 ```
 
-* images:
+* images: Images come in many different sizes and formats, but our Machine Learning models will expect a consistent shape and format for modelling. We take our image input and resize the shortest pixel dimension to the expected size, whilst conserving aspect ratio, and save the image as the more efficient JPEG format. The reason, resizing across the shortest pixel dimension work, is because at model runtime we will be introducing noise to our images during training. This noise comes in the form of grey-scaling, exposure, image rotation and most importantly image subsampling. Even-though the largest of our images my not be appropriate for our model, since we will be subsampling our images anyway, across batches and training epochs the model will eventually see and learn from the entire image anyway. (there are some caveats with images with extremely differing dimensions, those should be pruned from the training data in a fully exhaustive pre-processing service)
 
-* text:
+```py
+from PIL import Image
 
-**Storage**:
+from ..repository import storage
+
+# resize image file
+async def preprocess (filename):
+    async with storage.open(f'ingest/{filename}', 'r') as file:
+        image = Image.open(file)
+
+    # get dimensions
+    width, height = image.size
+
+    # shrink smallest dimension to 256 and other dimension with respect to aspect ratio
+    if width > height: width, height = int(width * 256 / height), 256
+    else: width, height = 256, int(height * 256 / width)
+
+    # resize and format image
+    image = image.resize((width, height))
+    image = image.convert("RGB")
+
+    async with storage.open(f'preprocess/{filename}', 'w') as file:
+        image.save(file)
+```
+
+* text: Turning text into Machine Learning features (or text embedding) is done by converting substrings into feature vectors. This can be done at the word, sub-word and character level, where, for example, each character in the ASCII alphabet would correspond to a specific feature vector. This essentially emulates the neural network that would normally convert the character to a contextual representation and treats it as a learnable input. All three embedding levels come with their own challenges. Word embeddings are large and cumbersome vector spaces prone to issues with misspelled words and character embeddings are expensive on computation as each character gets a feature vector, instead of each word. Whilst sub-word embedding comes with its own issues its a healthy middle-ground that has been adopted by most state of the art text encoders. [BPEmb](https://bpemb.h-its.org/) uses an efficient byte-pair encoding strategy and as such has many light weight embedding models we can use to ensure the load on our pre-processor stays minimal. Most of the official BPEmb Python lib is useless to us and quite slow, but as we only wish to store the indexes of our sub-word embeddings we can use its underlying string encoder [SentencePiece](https://github.com/google/sentencepiece). Using the model files from BPEmb with SentencePiece instead speeds up our text embedding 8x! Unfortunately SentencePiece was written in C++ without and consideration for Python file pointers and we are forced to save our model inside our microservice, but its a trade-off worth making.
+
+```py
+import sentencepiece
+
+from ..repository import storage
+
+# embed text file
+async def preprocess (filename):
+    # load text embedding model
+    spp = sentencepiece.SentencePieceProcessor(model_file='service/model/bpemb')
+
+    async with storage.open(f'ingest/{filename}', 'r') as file:
+        lines = file.readlines()
+
+    # embed lines of text
+    lines = [spp.encode(line) for line in lines]
+
+    async with storage.open(f'preprocess/{filename}', 'w') as file:
+        file.writelines(lines)
+```
+
+**Storage**: Our resultant pre-processed features and files can just be written right back to Google Storage, ready for loading by our models. The Python library for the Google Cloud implements Google Storage blobs quite nicely and allows us pass the blob around like a local file pointer. (see above pre-processors)
 
 ------------------------------------------------------------------
 
