@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning Pipeline (GCP) Part 2: Data Pre-Processing Microservice"
+title: "Machine Learning Pipeline (GCP) Part 3: Prediction Microservice"
 date: 2023-04-05
 excerpt: "A generic ML model training/inference GCP microservice example using weather data"
 tag:

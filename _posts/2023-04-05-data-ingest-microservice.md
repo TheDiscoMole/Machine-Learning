@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning Pipeline (GCP) Part 1: Data Ingestion Microservice"
+title: "Machine Learning Pipeline (GCP) Part 1: Ingestion Microservice"
 date: 2023-04-05
 excerpt: "A generic data ingestion GCP microservice example using weather data"
 tag:

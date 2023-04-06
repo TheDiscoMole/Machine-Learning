@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning Pipeline (GCP) Part 2: Data Pre-Processing Microservice"
+title: "Machine Learning Pipeline (GCP) Part 2: Pre-Processing Microservice"
 date: 2023-04-05
 excerpt: "A generic data pre-processing GCP microservice example using audio/image/text data"
 tag:
