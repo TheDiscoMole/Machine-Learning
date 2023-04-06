@@ -7,7 +7,7 @@ tag:
 comments: false
 ---
 
-Project description can be found [HERE](https://thediscomole.github.io/portfolio/machine-learning-pipeline/)
+Project description can be found [HERE](https://thediscomole.github.io/portfolio/machine-learning-pipeline/)<br/>
 Part 1 can be found [HERE](https://thediscomole.github.io/portfolio/data-ingest-microservice/)
 
 This post describes the implementation basics required to write a cost-effective, high-uptime data pre-processing microservice on the Google Cloud as part of a Machine Learning pipeline. The example will implement a generic interface for the pre-processing of several data types.
