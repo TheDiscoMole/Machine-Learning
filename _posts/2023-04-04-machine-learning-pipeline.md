@@ -12,7 +12,7 @@ Often Machine Learning ideas/tests are hindered by availability/price of data an
 
 This project goal is the implementation of a general purpose Machine Learning pipeline in terms of data aggregation, processing and predictions. The extend of this write-up will be limited to weather data modelling for simplicity, with parts of the explanations touching on the generalization of the pipeline that I will actually be running in my private cloud.
 
-Code for this project can be found **[HERE](https://github.com/TheDiscoMole/pipeline)**
+Code for this project can be found **[HERE](https://github.com/TheDiscoMole/example-pipe)**
 
 ------------------------------------------------------------------
 
