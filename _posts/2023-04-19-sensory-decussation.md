@@ -59,20 +59,21 @@ decussation = torch.nn.TransformerEncoderLayer(d_decussation, nhead)
 Our input features are the same for both models. During training we apply a mask and inverted mask to the input for the encoder and it's copy respectively.
 
 ```py
-input = torch.randn((1,32,512))
-mask = torch.randn((1,32,512)) > 0.5
-```
+input = torch.randn((32,32,512))
+mask = torch.randn((32,32,512)) > 0.5
 
-To generate the relevant gradients we take the Mean Squared Error loss function across the mirrored encodings:
-
-```py
 encoder_input = encoderInput(input * mask.float())
 encoder_output = encoder(encoder_input)
 
 decussation_input = decussationInput(input * (~mask).float())
 decussation_output = decussation(decussation_input)
+```
 
+To generate the relevant gradients we take the Mean Squared Error loss function across the mirrored encodings:
+
+```py
 criterion = torch.nn.MSELoss()
 optimizer = torch.optim.SGD(model.parameters(), learning_rate, momentum=momentum, weight_decay=weight_decay)
+
 loss = criterion(decussation_output, encoderDecussation(encoder_output))
 ```
