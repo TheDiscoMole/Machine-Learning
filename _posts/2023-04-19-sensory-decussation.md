@@ -42,7 +42,7 @@ The implementation is actually quite simple, it just requires a wrapper for enco
 Given the nature of the decussation task, and taking inspiration from nature, it makes sense to structure our disposable subgraphs similarly to the encoder we will actually be using during inference. We can slim our encoder copy down to conserve memory requirements since it only serves autoencoder gradients. Here is a pseudo-code example:
 
 ```py
-d_input
+d_input = 512
 d_encoder = 2048
 d_decussation = 128
 
