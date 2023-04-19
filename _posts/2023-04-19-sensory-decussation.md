@@ -21,6 +21,6 @@ Modelling the brain as a constant autoencoder explains a lot of our unsupervised
 
 To simplify the argument lets only consider visual information for now, but note that this obviously has no problem extending to all senses. Consider the following diagram:
 
-<img style="float: right;" width="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Neural_pathway_diagram.svg/800px-Neural_pathway_diagram.svg.png">
+<img align="right" width="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Neural_pathway_diagram.svg/800px-Neural_pathway_diagram.svg.png">
 
 Non-arbitrarily simplified, according to my interpretation, each eye would be sending a checkerboard mask of it's visual input to each hemisphere.
