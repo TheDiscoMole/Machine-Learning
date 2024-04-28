@@ -8,7 +8,7 @@ comments: false
 
 <p align="center">
 A short description of my Software Development skillset. <br>
-<a href="https://drive.google.com/file/d/1fUBBbdQoXt9f71RlWnOzQK71u0uU2rga/view?usp=sharing"><b>Download</b></a> as PDF
+<a href="https://drive.google.com/file/d/1RG-NeheJqPuuB9BaQSVtbpLLQkgBpF3e/view?usp=sharing"><b>Download</b></a> as PDF
 </p>
 
 -----------------------------------------------------------
@@ -20,6 +20,13 @@ My comprehensive understanding of both software and data, and willingness to lea
 -----------------------------------------------------------
 
 ## EXPERIENCE
+
+2024-current: **Machine Learning Developer** at [Bear Machines](https://www.bear-machines.de/en/home/):
+A tire regrooving start-up that is first to marking with a machine automating the regrooving process. I am assisting the exploration and investigation of:
+
+* Sensor technologies
+* Solution automation using Computer Vision
+* Cloud Architecture
 
 2020-2023: **Lead Developer** at [Hetrafi](https://hetrafi.com) (in development):
 A Gaming marketplace/hub start-up for gamers who want to trade, compete and provide services in their favourite online games. My responsibilities included:
