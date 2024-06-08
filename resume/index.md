@@ -22,11 +22,11 @@ My comprehensive understanding of both software and data, and willingness to lea
 ## EXPERIENCE
 
 2024-current: **Machine Learning Developer** at [Bear Machines](https://www.bear-machines.de/en/home/):
-A tire regrooving start-up that is first to marking with a machine automating the regrooving process. I am assisting the exploration and investigation of:
+A start-up that is first to market with an innovative tire regrooving automation system. I am assisting the exploration and implementation of:
 
-* Sensor technologies
-* Solution automation using Computer Vision
-* Cloud Architecture
+* cutting edge Sensor Technologies
+* Computer Vision algorithms
+* Cloud Architecture & Software
 
 2020-2023: **Lead Developer** at [Hetrafi](https://hetrafi.com) (in development):
 A Gaming marketplace/hub start-up for gamers who want to trade, compete and provide services in their favourite online games. My responsibilities included:
