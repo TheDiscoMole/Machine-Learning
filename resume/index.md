@@ -8,7 +8,7 @@ comments: false
 
 <p align="center">
 A short description of my Software Development skillset. <br>
-<a href="https://drive.google.com/file/d/1RG-NeheJqPuuB9BaQSVtbpLLQkgBpF3e/view?usp=sharing"><b>Download</b></a> as PDF
+<a href="[https://drive.google.com/file/d/1SGxdJRn8AUMC7GQCGzvsE7icoZaq_iv7/view?usp=sharing"><b>Download</b></a> as PDF
 </p>
 
 -----------------------------------------------------------
