@@ -68,7 +68,7 @@ A social media data analysis consultancy that searched for efficient Twitter inf
 | Scala      | 2    |
 
 **Tools, Techniques, etc**:
-Agile, AutoML, CI/CD, CUDA, DDD, Docker, Git, GCP/AWS/Azure, GraphQL/REST, gRPC, Hadoop, Keras, Kubernetes/Kubeflow, Linux, LLMs/GPTs, Machine Learning/Data Science, MapReduce, Matplotlib/Seaborn, Microservices, MLflow, Notebooks, NumPy/Scikit-learn, OpenCV, Pandas, PyTorch/TensorFlow, Serverless, SQL/NoSQL, Spacy, TDD, ...
+Agile, AutoML, CI/CD, Computer Vision/NLP/..., CUDA, DDD, Docker, Git, GCP/AWS/Azure, GraphQL/REST, gRPC, Hadoop, Keras, Kubernetes/Kubeflow, Linux, LLMs/GPTs/Multi-Agent Orchestration, Machine Learning/Data Science, MapReduce, Matplotlib, Microservices, MLflow, Notebooks, NumPy/Scikit-learn, OpenCV, Pandas, PyTorch/TensorFlow, Serverless, SQL/NoSQL, Spacy, TDD, ...
 
 -----------------------------------------------------------
 
